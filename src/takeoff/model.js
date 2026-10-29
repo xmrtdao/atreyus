@@ -6,7 +6,8 @@ export function emptySheet(sheetId) {
 }
 
 // ---- persistence -----------------------------------------------------------
-const KEY = 'atreyus-takeoffs-v1';
+// V2 used incomplete crops; its coordinates must not be silently reused on complete plans.
+const KEY = 'atreyus-takeoffs-v3';
 
 export function loadAll() {
   try {
@@ -20,8 +21,9 @@ export function loadAll() {
 export function saveAll(all) {
   try {
     localStorage.setItem(KEY, JSON.stringify(all));
+    return true;
   } catch {
-    // storage full or blocked: keep session-local only
+    return false;
   }
 }
 
@@ -31,9 +33,19 @@ export function saveAll(all) {
 export function roomOf(det, rooms) {
   if (det.roomId) return det.roomId;
   for (const r of rooms) {
-    if (r.x0 <= det.x && det.x <= r.x1 && r.y0 <= det.y && det.y <= r.y1) return r.id;
+    if (containsRoom(r, det.x, det.y)) return r.id;
   }
   return 'Unassigned';
+}
+
+export function containsRoom(room, x, y) {
+  if (!room.polygon) return room.x0 <= x && x <= room.x1 && room.y0 <= y && y <= room.y1;
+  let inside = false;
+  for (let i = 0, j = room.polygon.length - 1; i < room.polygon.length; j = i++) {
+    const a = room.polygon[i], b = room.polygon[j];
+    if ((a[1] > y) !== (b[1] > y) && x < (b[0] - a[0]) * (y - a[1]) / (b[1] - a[1]) + a[0]) inside = !inside;
+  }
+  return inside;
 }
 
 export function annotate(detections, rooms) {
@@ -43,11 +55,11 @@ export function annotate(detections, rooms) {
 // per-room, per-group counts + grand totals
 export function computeBom(detections, rooms) {
   const dets = annotate(detections, rooms);
-  const roomRows = [...rooms.map(r => r.id), 'Unassigned'].map(roomId => {
+  const roomRows = [...new Set([...rooms.map(r => r.id), ...dets.map(d => d.roomId), 'Unassigned'])].map(roomId => {
     const here = dets.filter(d => d.roomId === roomId);
     const byGroup = {};
     for (const d of here) {
-      const g = TYPES[d.type]?.group ?? 'other';
+      const g = d.type?.startsWith('custom:') ? 'custom' : TYPES[d.type]?.group ?? 'other';
       byGroup[g] = (byGroup[g] ?? 0) + 1;
     }
     const byType = {};
@@ -58,7 +70,7 @@ export function computeBom(detections, rooms) {
   });
   const totals = {};
   for (const d of dets) {
-    const g = TYPES[d.type]?.group ?? 'other';
+    const g = d.type?.startsWith('custom:') ? 'custom' : TYPES[d.type]?.group ?? 'other';
     totals[g] = (totals[g] ?? 0) + 1;
   }
   return { roomRows, totals, dets };

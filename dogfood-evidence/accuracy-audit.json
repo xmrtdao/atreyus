@@ -1,0 +1,765 @@
+[
+  {
+    "sheet": 1,
+    "pipelineBuild": "500e364adf1a",
+    "pipelineVersion": "3.1.0",
+    "auditKind": "agent-assisted visual source audit / in-sample",
+    "sourcePdfSha256": "714af7da3154a1152c21656a7ef515daa1eb985998cdaaadcd7ac3f642fe2587",
+    "annotationSha256": "f8a9bf1fa44d43647f2e3df29b830426b3f1c6ef71186a0fd3159cd23d685102",
+    "referenceCount": 56,
+    "predictionCount": 56,
+    "matched": 56,
+    "typeCorrect": 56,
+    "roomCorrect": 56,
+    "missed": [],
+    "extra": [],
+    "wrongType": [],
+    "wrongRoom": [],
+    "perClass": {
+      "ceiling-fan": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "exhaust-fan": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "iaq-fan": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-exterior": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-recessed": {
+        "reference": 7,
+        "predicted": 7,
+        "correct": 7,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-service": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-wall": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "panelboard": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-240": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-afi": {
+        "reference": 9,
+        "predicted": 9,
+        "correct": 9,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-dw": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-fc": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-gfi": {
+        "reference": 6,
+        "predicted": 6,
+        "correct": 6,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-halfhot": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-mw": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-wp": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-wp-240": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "smoke-co-detector": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "smoke-detector": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-3way-dimmer": {
+        "reference": 4,
+        "predicted": 4,
+        "correct": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-astro": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-dimmer": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-fan": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-sensor": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "maxMatchedErrorPdfPoints": 4.255170009610245,
+    "tolerancePdfPoints": 6
+  },
+  {
+    "sheet": 2,
+    "pipelineBuild": "500e364adf1a",
+    "pipelineVersion": "3.1.0",
+    "auditKind": "agent-assisted visual source audit / in-sample",
+    "sourcePdfSha256": "714af7da3154a1152c21656a7ef515daa1eb985998cdaaadcd7ac3f642fe2587",
+    "annotationSha256": "f8a9bf1fa44d43647f2e3df29b830426b3f1c6ef71186a0fd3159cd23d685102",
+    "referenceCount": 67,
+    "predictionCount": 67,
+    "matched": 67,
+    "typeCorrect": 67,
+    "roomCorrect": 67,
+    "missed": [],
+    "extra": [],
+    "wrongType": [],
+    "wrongRoom": [],
+    "perClass": {
+      "ceiling-fan": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "exhaust-fan": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "iaq-fan": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-exterior": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-recessed": {
+        "reference": 11,
+        "predicted": 11,
+        "correct": 11,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-service": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "panelboard": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-240": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-afi": {
+        "reference": 15,
+        "predicted": 15,
+        "correct": 15,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-dw": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-fc": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-gfi": {
+        "reference": 7,
+        "predicted": 7,
+        "correct": 7,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-mw": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-wp": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "smoke-co-detector": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "smoke-detector": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-3way-dimmer": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-astro": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-dimmer": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-fan": {
+        "reference": 4,
+        "predicted": 4,
+        "correct": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-sensor": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "maxMatchedErrorPdfPoints": 4.568874433908062,
+    "tolerancePdfPoints": 6
+  },
+  {
+    "sheet": 3,
+    "pipelineBuild": "500e364adf1a",
+    "pipelineVersion": "3.1.0",
+    "auditKind": "agent-assisted visual source audit / in-sample",
+    "sourcePdfSha256": "714af7da3154a1152c21656a7ef515daa1eb985998cdaaadcd7ac3f642fe2587",
+    "annotationSha256": "f8a9bf1fa44d43647f2e3df29b830426b3f1c6ef71186a0fd3159cd23d685102",
+    "referenceCount": 83,
+    "predictionCount": 83,
+    "matched": 83,
+    "typeCorrect": 83,
+    "roomCorrect": 83,
+    "missed": [],
+    "extra": [],
+    "wrongType": [],
+    "wrongRoom": [],
+    "perClass": {
+      "ceiling-fan": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "exhaust-fan": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "iaq-fan": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-exterior": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-recessed": {
+        "reference": 13,
+        "predicted": 13,
+        "correct": 13,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-service": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-wall": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "panelboard": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-240": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-afi": {
+        "reference": 15,
+        "predicted": 15,
+        "correct": 15,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-dw": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-fc": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-gfi": {
+        "reference": 7,
+        "predicted": 7,
+        "correct": 7,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-halfhot": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-mw": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-wp": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-wp-240": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "smoke-co-detector": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "smoke-detector": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-3way-dimmer": {
+        "reference": 6,
+        "predicted": 6,
+        "correct": 6,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-astro": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-dimmer": {
+        "reference": 4,
+        "predicted": 4,
+        "correct": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-fan": {
+        "reference": 5,
+        "predicted": 5,
+        "correct": 5,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-sensor": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "maxMatchedErrorPdfPoints": 5.118065099401217,
+    "tolerancePdfPoints": 6
+  },
+  {
+    "sheet": 4,
+    "pipelineBuild": "500e364adf1a",
+    "pipelineVersion": "3.1.0",
+    "auditKind": "agent-assisted visual source audit / in-sample",
+    "sourcePdfSha256": "714af7da3154a1152c21656a7ef515daa1eb985998cdaaadcd7ac3f642fe2587",
+    "annotationSha256": "f8a9bf1fa44d43647f2e3df29b830426b3f1c6ef71186a0fd3159cd23d685102",
+    "referenceCount": 98,
+    "predictionCount": 98,
+    "matched": 98,
+    "typeCorrect": 98,
+    "roomCorrect": 98,
+    "missed": [],
+    "extra": [],
+    "wrongType": [],
+    "wrongRoom": [],
+    "perClass": {
+      "ceiling-fan": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "exhaust-fan": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "iaq-fan": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-exterior": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-recessed": {
+        "reference": 18,
+        "predicted": 18,
+        "correct": 18,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-service": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "light-wall": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "panelboard": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-240": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-afi": {
+        "reference": 17,
+        "predicted": 17,
+        "correct": 17,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-dw": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-fc": {
+        "reference": 4,
+        "predicted": 4,
+        "correct": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-gfi": {
+        "reference": 10,
+        "predicted": 10,
+        "correct": 10,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-halfhot": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-mw": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-wp": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receptacle-wp-240": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "smoke-co-detector": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "smoke-detector": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch": {
+        "reference": 3,
+        "predicted": 3,
+        "correct": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-3way-dimmer": {
+        "reference": 4,
+        "predicted": 4,
+        "correct": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-astro": {
+        "reference": 1,
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-dimmer": {
+        "reference": 6,
+        "predicted": 6,
+        "correct": 6,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-fan": {
+        "reference": 6,
+        "predicted": 6,
+        "correct": 6,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "switch-sensor": {
+        "reference": 2,
+        "predicted": 2,
+        "correct": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "maxMatchedErrorPdfPoints": 5.085292814206115,
+    "tolerancePdfPoints": 6
+  }
+]

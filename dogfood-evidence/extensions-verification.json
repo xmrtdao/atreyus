@@ -1,0 +1,41 @@
+[
+  {
+    "sheet": 1,
+    "symbols": 56,
+    "boxLocations": 39,
+    "tracedRuns": 17,
+    "materialAllowanceUSD": 1649.95,
+    "unpriced": 0
+  },
+  {
+    "step": "Price edits, optional supply, priced CSV, gang edit, switch relocation, cable CRUD/undo/reload",
+    "passed": true
+  },
+  {
+    "sheet": 2,
+    "symbols": 67,
+    "boxLocations": 46,
+    "tracedRuns": 20,
+    "materialAllowanceUSD": 1760.4,
+    "unpriced": 0
+  },
+  {
+    "sheet": 3,
+    "symbols": 83,
+    "boxLocations": 56,
+    "tracedRuns": 26,
+    "materialAllowanceUSD": 2370,
+    "unpriced": 0
+  },
+  {
+    "sheet": 4,
+    "symbols": 98,
+    "boxLocations": 65,
+    "tracedRuns": 31,
+    "materialAllowanceUSD": 2575.6,
+    "unpriced": 0
+  },
+  {
+    "uncaughtBrowserErrors": 0
+  }
+]

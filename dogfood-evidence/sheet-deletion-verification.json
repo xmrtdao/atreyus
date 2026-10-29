@@ -1,0 +1,23 @@
+[
+  {
+    "step": "Single-sheet deletion, cancel, complete takeoff undo, persistence after reload",
+    "passed": true
+  },
+  {
+    "step": "Bulk-delete remaining old upload while retaining all four new sheets",
+    "passed": true
+  },
+  {
+    "step": "Example removal persists; example restoration preserves uploaded workspace",
+    "passed": true
+  },
+  {
+    "step": "Retained sheet remains operational; second tab reflects deletion",
+    "passed": true
+  },
+  {
+    "step": "Empty workspace and bulk undo",
+    "passed": true,
+    "uncaughtBrowserErrors": 0
+  }
+]

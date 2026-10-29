@@ -1,0 +1,5636 @@
+{
+  "id": "plan1-studio",
+  "label": "Plan 1 \u00b7 Studio",
+  "sheet": "Sheet 1",
+  "documentName": "plans.pdf",
+  "planUrl": "/results/v3/plan1-studio.png",
+  "fullSheetUrl": "/results/v3/plan1-studio-full.png",
+  "imageWidth": 2000,
+  "imageHeight": 2400,
+  "clip": [
+    900,
+    130,
+    1400,
+    730
+  ],
+  "zoom": 4,
+  "pageIndex": 0,
+  "referenceIndex": 0,
+  "version": "3.0.0",
+  "planId": "plan1-studio",
+  "detections": [
+    {
+      "type": "ceiling-fan",
+      "center": [
+        1506.5570598047198,
+        1505.1999169999356
+      ],
+      "bbox": [
+        1276.7547952889336,
+        1275.1579600242758,
+        1736.1990409763112,
+        1734.602205711653
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9703716752366472,
+      "rawClass": "ceiling-fan",
+      "geometryErrorPoints": 0.029628324763352722,
+      "reviewed": false,
+      "id": "det-8fe981601defe3",
+      "classificationNote": "Optional ceiling fan / prewire symbol, per this sheet\u2019s legend",
+      "tags": [],
+      "roomId": "region-0-5",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "light-recessed",
+      "center": [
+        881.2796869222775,
+        1570.2146759481438
+      ],
+      "bbox": [
+        859.0690840091702,
+        1547.6013137484238,
+        903.9728151075415,
+        1592.9883559907298
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9293312747828419,
+      "rawClass": "light-recessed",
+      "geometryErrorPoints": 0.07066872521715804,
+      "reviewed": false,
+      "id": "det-85b3ee4e6b4f91",
+      "supportingSources": [
+        "legend",
+        "mepdetect"
+      ],
+      "tags": [],
+      "roomId": "region-0-7",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "light-recessed",
+      "center": [
+        881.2796868760324,
+        782.0460715752167
+      ],
+      "bbox": [
+        859.0586279650615,
+        759.4220637722333,
+        903.9834982156772,
+        804.8304726932638
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9287100432452402,
+      "rawClass": "light-recessed",
+      "geometryErrorPoints": 0.07128995675475984,
+      "reviewed": false,
+      "id": "det-1a7d9cfac758a2",
+      "supportingSources": [
+        "legend",
+        "mepdetect"
+      ],
+      "tags": [],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "light-recessed",
+      "center": [
+        881.2796868758714,
+        1114.686178928937
+      ],
+      "bbox": [
+        859.058591620651,
+        1092.0621341226497,
+        903.9835353493454,
+        1137.470617312623
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9287040307854275,
+      "rawClass": "light-recessed",
+      "geometryErrorPoints": 0.07129596921457247,
+      "reviewed": false,
+      "id": "det-e333de1a1fac2b",
+      "supportingSources": [
+        "legend",
+        "mepdetect"
+      ],
+      "tags": [],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "light-recessed",
+      "center": [
+        1437.6001963654935,
+        665.3926549145576
+      ],
+      "bbox": [
+        1414.7972752644364,
+        642.50879223365,
+        1459.9182576613975,
+        688.1154241097145
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9277928227409346,
+      "rawClass": "light-recessed",
+      "geometryErrorPoints": 0.07220717725906549,
+      "reviewed": false,
+      "id": "det-7d891b3931fa3d",
+      "supportingSources": [
+        "legend"
+      ],
+      "tags": [],
+      "roomId": "region-0-4",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "light-recessed",
+      "center": [
+        418.0799322681951,
+        751.7148403956412
+      ],
+      "bbox": [
+        395.3752887666765,
+        728.9296041618672,
+        440.30180564673446,
+        774.3396774354624
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9097652539433009,
+      "rawClass": "light-recessed",
+      "geometryErrorPoints": 0.09023474605669912,
+      "reviewed": false,
+      "id": "det-9d4aee5e90ed3d",
+      "supportingSources": [
+        "legend"
+      ],
+      "tags": [],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "light-recessed",
+      "center": [
+        418.0799323745673,
+        1029.6541944824676
+      ],
+      "bbox": [
+        395.35071568434205,
+        1006.8442978346388,
+        440.32585644070787,
+        1052.3035183366271
+      ],
+      "source": "vector-legend",
+      "confidence": 0.907429384418287,
+      "rawClass": "light-recessed",
+      "geometryErrorPoints": 0.09257061558171294,
+      "reviewed": false,
+      "id": "det-fb550468726439",
+      "supportingSources": [
+        "legend"
+      ],
+      "tags": [],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "light-recessed",
+      "center": [
+        418.07993287431145,
+        1307.6654100844044
+      ],
+      "bbox": [
+        395.2352698314089,
+        1284.739657293849,
+        440.4388485507816,
+        1330.4297744991427
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9046507381348998,
+      "rawClass": "light-recessed",
+      "geometryErrorPoints": 0.09534926186510012,
+      "reviewed": false,
+      "id": "det-0cafccaec97c89",
+      "supportingSources": [
+        "legend",
+        "mepdetect"
+      ],
+      "tags": [],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "panelboard",
+      "rawClass": "B32 electrical panel",
+      "source": "pdf-keynote",
+      "confidence": 1,
+      "center": [
+        1685.52001953125,
+        290.000244140625
+      ],
+      "bbox": [
+        1631.52001953125,
+        281.1201171875,
+        1739.52001953125,
+        298.88037109375
+      ],
+      "classificationNote": "B32 identifies this panel. Electrical note 5 specifies a 100 A subpanel; B32 also references cover-sheet options. Confirm the selected assembly.",
+      "reviewed": false,
+      "id": "det-2d53adc4308954",
+      "tags": [],
+      "roomId": "Exterior",
+      "roomMethod": "exterior device tag"
+    },
+    {
+      "type": "receptacle-mw",
+      "center": [
+        301.2803403451617,
+        1096.82562202489
+      ],
+      "bbox": [
+        267.41576407049524,
+        1081.3309621381857,
+        316.77461024759987,
+        1112.47998046875
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9708110289032152,
+      "rawClass": "receptacle-three-prong",
+      "geometryErrorPoints": 0.029188971096784762,
+      "reviewed": false,
+      "id": "det-1aba7456959ea1",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "MW",
+        "GFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-halfhot",
+      "center": [
+        301.28002140654644,
+        781.8952690125909
+      ],
+      "bbox": [
+        267.30655798331054,
+        766.350653799828,
+        316.8245388089126,
+        797.60009765625
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9626491558043468,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.03735084419565311,
+      "reviewed": false,
+      "id": "det-77a878b6beb20e",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-dw",
+      "center": [
+        301.28002140654644,
+        599.0153862000909
+      ],
+      "bbox": [
+        267.30655798331054,
+        583.470770987328,
+        316.8245388089126,
+        614.72021484375
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9626491558043468,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.03735084419565311,
+      "reviewed": false,
+      "id": "det-341b9cf0e9286d",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "DW",
+        "GFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "switch-3way-dimmer",
+      "center": [
+        783.3322424263015,
+        1821.2010145950917
+      ],
+      "bbox": [
+        772.7282624602631,
+        1794.0485537515415,
+        793.9359282023543,
+        1848.514397360741
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9586160480572097,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.04138395194279035,
+      "reviewed": false,
+      "id": "det-4e6f814a210c50",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "3D"
+      ],
+      "roomId": "region-0-7",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "receptacle-240",
+      "center": [
+        301.2811407780355,
+        1213.5442686422057
+      ],
+      "bbox": [
+        267.586402472637,
+        1198.1273177322303,
+        316.69770365959766,
+        1229.1201171875
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9565812397055647,
+      "rawClass": "receptacle-three-prong",
+      "geometryErrorPoints": 0.04341876029443524,
+      "reviewed": false,
+      "id": "det-e4342ffe56354d",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "240V",
+        "GFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-gfi",
+      "center": [
+        301.28104161226383,
+        446.9554185193581
+      ],
+      "bbox": [
+        267.52431106594486,
+        431.5099697982083,
+        316.72639314699563,
+        462.56005859375
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9553498347714215,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.04465016522857845,
+      "reviewed": false,
+      "id": "det-e23e71b12e2285",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "GFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-gfi",
+      "center": [
+        301.2810409119752,
+        659.5954864667835
+      ],
+      "bbox": [
+        267.5241615961195,
+        644.1499696758824,
+        316.7264605160299,
+        675.2001953125
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9553415487079971,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.04465845129200289,
+      "reviewed": false,
+      "id": "det-95f141abb5b555",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "GFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "switch",
+      "center": [
+        956.5955585287329,
+        1259.1683844146417
+      ],
+      "bbox": [
+        945.9656980397303,
+        1231.949654124277,
+        967.2251241097365,
+        1286.5484293799695
+      ],
+      "source": "vector-legend",
+      "confidence": 0.95376681329576,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.04623318670424005,
+      "reviewed": false,
+      "id": "det-9de64518a5c311",
+      "tags": [],
+      "roomId": "region-0-7",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-gfi",
+      "center": [
+        301.28179900166424,
+        959.6699341199046
+      ],
+      "bbox": [
+        267.6859685375757,
+        944.2981055014454,
+        316.65353089694054,
+        975.2001953125
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9527258387031554,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.04727416129684462,
+      "reviewed": false,
+      "id": "det-b01e75132d12ed",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "GFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-gfi",
+      "center": [
+        888.1291835906186,
+        382.24217961863417
+      ],
+      "bbox": [
+        872.64013671875,
+        348.73550601511977,
+        903.4602183378747,
+        397.5731178993922
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9482365901971708,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.05176340980282926,
+      "reviewed": false,
+      "id": "det-f8ba812a115319",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "GFI"
+      ],
+      "roomId": "region-0-1",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "switch-fan",
+      "center": [
+        1233.8079730186655,
+        1420.6017379895366
+      ],
+      "bbox": [
+        1206.450964382685,
+        1409.9808209835508,
+        1261.0038027025412,
+        1431.2223603356458
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9473292075144328,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.05267079248556716,
+      "reviewed": false,
+      "id": "det-1e07f6daa5fa94",
+      "tags": [
+        "F"
+      ],
+      "roomId": "region-0-5",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "switch-dimmer",
+      "center": [
+        1233.8080884361543,
+        674.6813678943863
+      ],
+      "bbox": [
+        1206.4512419564862,
+        664.0605138429712,
+        1261.0037569190927,
+        685.3019272876716
+      ],
+      "source": "vector-legend",
+      "confidence": 0.947317482211604,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.05268251778839604,
+      "reviewed": false,
+      "id": "det-6047a9960b3ba3",
+      "tags": [
+        "D"
+      ],
+      "roomId": "region-0-4",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "switch-sensor",
+      "center": [
+        1233.8080884361543,
+        626.6813678943863
+      ],
+      "bbox": [
+        1206.4512419564862,
+        616.0605138429712,
+        1261.0037569190927,
+        637.3019272876716
+      ],
+      "source": "vector-legend",
+      "confidence": 0.947317482211604,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.05268251778839604,
+      "reviewed": false,
+      "id": "det-1fc9cae9c77989",
+      "tags": [
+        "VS"
+      ],
+      "roomId": "region-0-4",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "switch-3way-dimmer",
+      "center": [
+        748.784307121944,
+        1821.1660869563107
+      ],
+      "bbox": [
+        738.1993784671076,
+        1794.062408738067,
+        759.3689421153413,
+        1848.4303979812812
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9468642454985728,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.053135754501427206,
+      "reviewed": false,
+      "id": "det-ebc52fec28c53d",
+      "tags": [
+        "3D"
+      ],
+      "roomId": "region-0-7",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "receptacle-fc",
+      "center": [
+        982.1879981729644,
+        631.8424888263676
+      ],
+      "bbox": [
+        966.7197265625,
+        598.3807572976407,
+        997.4984695984676,
+        647.1528639147621
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9449203016400319,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.055079698359968045,
+      "reviewed": false,
+      "id": "det-878b945ca18b86",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "FC"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "switch-astro",
+      "center": [
+        716.6290471979974,
+        1821.1519804624218
+      ],
+      "bbox": [
+        706.0518129426227,
+        1794.068004457949,
+        727.2059880054003,
+        1848.3964725063734
+      ],
+      "source": "vector-legend",
+      "confidence": 0.942330775085434,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.05766922491456606,
+      "reviewed": false,
+      "id": "det-af117d98b547a2",
+      "tags": [
+        "A"
+      ],
+      "roomId": "region-0-7",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "light-exterior",
+      "center": [
+        733.2733471596175,
+        1917.122116258362
+      ],
+      "bbox": [
+        710.3370261158325,
+        1886.8098552290817,
+        756.048205431197,
+        1939.8155505951822
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9405200609234678,
+      "rawClass": "light-wall",
+      "geometryErrorPoints": 0.05947993907653218,
+      "reviewed": false,
+      "id": "det-3a74631311eaab",
+      "tags": [
+        "EXT"
+      ],
+      "roomId": "Exterior",
+      "roomMethod": "exterior device tag"
+    },
+    {
+      "type": "receptacle-afi",
+      "center": [
+        1284.8148758821817,
+        1811.9982166786822
+      ],
+      "bbox": [
+        1269.4681018896463,
+        1796.6515392516803,
+        1300.31982421875,
+        1845.5392891184792
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9402577077498636,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.05974229225013642,
+      "reviewed": false,
+      "id": "det-6065162eb9cff2",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "AFI"
+      ],
+      "roomId": "region-0-5",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "switch-fan",
+      "center": [
+        298.33618009512793,
+        1038.0583339809393
+      ],
+      "bbox": [
+        271.04658463863143,
+        1027.4635890537043,
+        325.4649937769236,
+        1048.6527849743993
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9361274416031221,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.06387255839687787,
+      "reviewed": false,
+      "id": "det-4e0bee3edad6ea",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "F"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "smoke-detector",
+      "center": [
+        1314.8649028257687,
+        1265.280267855153
+      ],
+      "bbox": [
+        1288.2896632380853,
+        1238.2247716893653,
+        1341.60009765625,
+        1292.015951247769
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9349922306690222,
+      "rawClass": "smoke-detector",
+      "geometryErrorPoints": 0.06500776933097785,
+      "reviewed": false,
+      "id": "det-139c8efe6e937c",
+      "supportingSources": [
+        "legend"
+      ],
+      "tags": [
+        "SD"
+      ],
+      "roomId": "region-0-5",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-afi",
+      "center": [
+        984.2476234397991,
+        1812.9590662940732
+      ],
+      "bbox": [
+        968.8144677821238,
+        1797.5260077454654,
+        999.83984375,
+        1846.688929791153
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9348132240828685,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.06518677591713153,
+      "reviewed": false,
+      "id": "det-48b743abd73702",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "AFI"
+      ],
+      "roomId": "region-0-7",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "switch-dimmer",
+      "center": [
+        1233.8269929409562,
+        1452.7680077221105
+      ],
+      "bbox": [
+        1206.4967064289722,
+        1442.1574651494177,
+        1260.9962579392468,
+        1463.3782559227482
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9343382737666148,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.06566172623338513,
+      "reviewed": false,
+      "id": "det-132888f1a46830",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "D"
+      ],
+      "roomId": "region-0-5",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "switch-fan",
+      "center": [
+        1233.8269968866907,
+        587.808048154164
+      ],
+      "bbox": [
+        1206.4967159182834,
+        577.1975077336754,
+        1260.9962563740646,
+        598.4182942026575
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9343380101830594,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.06566198981694055,
+      "reviewed": false,
+      "id": "det-aede0bfeffdbdb",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "F"
+      ],
+      "roomId": "region-0-4",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "receptacle-wp",
+      "center": [
+        1734.9902366548822,
+        1924.4809748862976
+      ],
+      "bbox": [
+        1719.35986328125,
+        1890.6685767920976,
+        1750.4611561560005,
+        1939.9517970407305
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9320371085286149,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.06796289147138512,
+      "reviewed": false,
+      "id": "det-c4c67b21314e64",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "WP",
+        "GFI"
+      ],
+      "roomId": "Exterior",
+      "roomMethod": "exterior device tag"
+    },
+    {
+      "type": "light-wall",
+      "center": [
+        1741.7587896548412,
+        647.559704191217
+      ],
+      "bbox": [
+        1719.208536981795,
+        624.7680972774824,
+        1771.8797988928545,
+        670.1908670638913
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9312961059889017,
+      "rawClass": "light-wall",
+      "geometryErrorPoints": 0.06870389401109832,
+      "reviewed": false,
+      "id": "det-4022e81d6177a0",
+      "supportingSources": [
+        "legend"
+      ],
+      "tags": [],
+      "roomId": "region-0-4",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-gfi",
+      "center": [
+        1604.0431837217602,
+        587.6827336496171
+      ],
+      "bbox": [
+        1588.7242354652471,
+        554.2024756212425,
+        1619.52001953125,
+        603.0015855156832
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9312752839124929,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.06872471608750705,
+      "reviewed": false,
+      "id": "det-88c09315afa11c",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "GFI"
+      ],
+      "roomId": "region-0-4",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "iaq-fan",
+      "center": [
+        982.0395660176428,
+        514.7205810475061
+      ],
+      "bbox": [
+        964.31982421875,
+        497.16072672781183,
+        1000.2375087598075,
+        532.1206453209566
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9290606993172371,
+      "rawClass": "exhaust-fan",
+      "geometryErrorPoints": 0.07093930068276284,
+      "reviewed": false,
+      "id": "det-62da28400dd6e6",
+      "supportingSources": [
+        "legend"
+      ],
+      "tags": [
+        "IAQ"
+      ],
+      "roomId": "region-0-1",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-wp",
+      "center": [
+        379.9117237612545,
+        1924.481366659758
+      ],
+      "bbox": [
+        364.31982421875,
+        1890.7521970632515,
+        395.34456192355765,
+        1939.9141077149916
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9279003357353243,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.07209966426467578,
+      "reviewed": false,
+      "id": "det-40fa6b797065a5",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "WP",
+        "GFI"
+      ],
+      "roomId": "Exterior",
+      "roomMethod": "exterior device tag"
+    },
+    {
+      "type": "smoke-co-detector",
+      "center": [
+        913.9737936188412,
+        979.6807142114403
+      ],
+      "bbox": [
+        887.3082811416834,
+        952.5333137824005,
+        940.7998046875,
+        1006.5072155018206
+      ],
+      "source": "vector-legend",
+      "confidence": 0.927785507384623,
+      "rawClass": "smoke-detector",
+      "geometryErrorPoints": 0.07221449261537707,
+      "reviewed": false,
+      "id": "det-ec46bf376375a4",
+      "supportingSources": [
+        "legend"
+      ],
+      "tags": [
+        "SD/MA"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-gfi",
+      "center": [
+        292.6418248257278,
+        1336.9656816763252
+      ],
+      "bbox": [
+        259.08052501655084,
+        1321.6096526169797,
+        307.9977572613052,
+        1352.47998046875
+      ],
+      "source": "vector-legend",
+      "confidence": 0.927615424245143,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.07238457575485706,
+      "reviewed": false,
+      "id": "det-d081b520ff476c",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "GFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "switch-3way-dimmer",
+      "center": [
+        731.4564058852338,
+        530.3288754387165
+      ],
+      "bbox": [
+        704.058407227305,
+        519.6293012699023,
+        759.0167816710082,
+        541.0287464578566
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9250377231762296,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.0749622768237704,
+      "reviewed": false,
+      "id": "det-8be1a42f9fb961",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "3D"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "receptacle-afi",
+      "center": [
+        1737.7595632608109,
+        1240.9404785327729
+      ],
+      "bbox": [
+        1722.2592139000199,
+        1225.2802734375,
+        1771.6364948132887,
+        1256.440925426044
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9242947648897142,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.07570523511028578,
+      "reviewed": false,
+      "id": "det-e953c935fd6911",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "AFI"
+      ],
+      "roomId": "region-0-5",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "exhaust-fan",
+      "center": [
+        354.88033761019597,
+        1159.0639855846994
+      ],
+      "bbox": [
+        337.4174570618384,
+        1141.2802734375,
+        372.50358506562543,
+        1177.3276250367198
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9216613527564679,
+      "rawClass": "exhaust-fan",
+      "geometryErrorPoints": 0.07833864724353212,
+      "reviewed": false,
+      "id": "det-57fb4acb8f6932",
+      "supportingSources": [
+        "legend"
+      ],
+      "tags": [],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-240",
+      "center": [
+        1688.9340706591765,
+        376.9605168700672
+      ],
+      "bbox": [
+        1673.27978515625,
+        343.0960983862054,
+        1704.4286583490566,
+        392.4547145774983
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9209466090799431,
+      "rawClass": "receptacle-three-prong",
+      "geometryErrorPoints": 0.07905339092005696,
+      "reviewed": false,
+      "id": "det-a128893ee3ff69",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "240V",
+        "GFI"
+      ],
+      "roomId": "region-0-0",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-240",
+      "center": [
+        1071.4897586809511,
+        376.96219427227174
+      ],
+      "bbox": [
+        1056.0,
+        343.4536914352873,
+        1086.8214979757422,
+        392.29354768333576
+      ],
+      "source": "vector-legend",
+      "confidence": 0.920755885642192,
+      "rawClass": "receptacle-three-prong",
+      "geometryErrorPoints": 0.07924411435780795,
+      "reviewed": false,
+      "id": "det-b54a07026e2f2c",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "240V",
+        "GFI"
+      ],
+      "roomId": "region-0-1",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-afi",
+      "center": [
+        1141.1189222938983,
+        1595.6106857668428
+      ],
+      "bbox": [
+        1125.6675867797394,
+        1580.0,
+        1174.8887311816634,
+        1611.0621185050722
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9201811748683763,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.07981882513162371,
+      "reviewed": false,
+      "id": "det-f0268a90a3aa37",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "AFI"
+      ],
+      "roomId": "region-0-7",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-afi",
+      "center": [
+        1737.7590584586424,
+        1770.8108266735658
+      ],
+      "bbox": [
+        1722.307776794899,
+        1755.2001953125,
+        1771.5287496531346,
+        1786.2622055610414
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9201478675101491,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.0798521324898509,
+      "reviewed": false,
+      "id": "det-7ceb6c703bdd3a",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "AFI"
+      ],
+      "roomId": "region-0-5",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-afi",
+      "center": [
+        723.5175859531555,
+        435.32937367759234
+      ],
+      "bbox": [
+        708.1866528445826,
+        419.84033203125,
+        757.0242482525528,
+        450.6604032526309
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9192959783809483,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.08070402161905164,
+      "reviewed": false,
+      "id": "det-01d144004fcfe3",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "AFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "switch-3way-dimmer",
+      "center": [
+        731.4825342880995,
+        489.5381398495108
+      ],
+      "bbox": [
+        704.0480426941649,
+        478.82431431583257,
+        759.0796192891112,
+        500.2522626289066
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9192714844516854,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.08072851554831462,
+      "reviewed": false,
+      "id": "det-8d47b4f97f11ba",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "3D"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "shared switch location / room boundary"
+    },
+    {
+      "type": "switch",
+      "center": [
+        297.2163334564634,
+        899.7626884500464
+      ],
+      "bbox": [
+        269.70244888298566,
+        889.0808668936193,
+        324.56811481380055,
+        910.4442136569003
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9187503849874521,
+      "rawClass": "switch",
+      "geometryErrorPoints": 0.08124961501254795,
+      "reviewed": false,
+      "id": "det-e0f61dcf2d1263",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-afi",
+      "center": [
+        1141.119548984294,
+        1061.9124638217068
+      ],
+      "bbox": [
+        1125.6072980138533,
+        1046.240234375,
+        1175.022492209543,
+        1077.424812399515
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9181022489004681,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.08189775109953193,
+      "reviewed": false,
+      "id": "det-8ce895f278cecc",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "AFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-afi",
+      "center": [
+        1141.1195501987186,
+        659.1923682396771
+      ],
+      "bbox": [
+        1125.6071811839538,
+        643.52001953125,
+        1175.02275141683,
+        674.7048348625524
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9180895328980836,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.08191046710191636,
+      "reviewed": false,
+      "id": "det-0c451c5b9b32e3",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "AFI"
+      ],
+      "roomId": "region-0-6",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-fc",
+      "center": [
+        1241.600176190921,
+        1715.0478491596687
+      ],
+      "bbox": [
+        1207.696938250232,
+        1699.5353657343167,
+        1257.1125620080566,
+        1730.72021484375
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9180775035333271,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.08192249646667296,
+      "reviewed": false,
+      "id": "det-a085605d19ae6d",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "FC"
+      ],
+      "roomId": "region-0-5",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "exhaust-fan",
+      "center": [
+        1436.1601676423988,
+        569.9199226528954
+      ],
+      "bbox": [
+        1418.39990234375,
+        552.319910482126,
+        1454.3997274880549,
+        587.3597793515598
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9151382803184376,
+      "rawClass": "exhaust-fan",
+      "geometryErrorPoints": 0.08486171968156243,
+      "reviewed": false,
+      "id": "det-3aa8b19bd6e3db",
+      "supportingSources": [
+        "legend"
+      ],
+      "tags": [],
+      "roomId": "region-0-4",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "receptacle-wp-240",
+      "center": [
+        1007.81014590218,
+        261.1184951503343
+      ],
+      "bbox": [
+        992.4190595803011,
+        245.72779620588494,
+        1023.35986328125,
+        294.75670473404136
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9147312062403515,
+      "rawClass": "receptacle-three-prong",
+      "geometryErrorPoints": 0.08526879375964848,
+      "reviewed": false,
+      "id": "det-f5d7602bc199cf",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "240V",
+        "GFI",
+        "WP"
+      ],
+      "roomId": "Exterior",
+      "roomMethod": "exterior device tag"
+    },
+    {
+      "type": "receptacle-afi",
+      "center": [
+        1241.6019886479708,
+        1546.265879264226
+      ],
+      "bbox": [
+        1208.0837897480897,
+        1530.9295710982724,
+        1256.9382003142446,
+        1561.76025390625
+      ],
+      "source": "vector-legend",
+      "confidence": 0.9127648999988326,
+      "rawClass": "receptacle",
+      "geometryErrorPoints": 0.08723510000116744,
+      "reviewed": false,
+      "id": "det-1cd4864242dff4",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "tags": [
+        "AFI"
+      ],
+      "roomId": "region-0-5",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    },
+    {
+      "type": "light-service",
+      "center": [
+        870.0,
+        1225.0
+      ],
+      "bbox": [
+        838.0,
+        1193.0,
+        902.0,
+        1257.0
+      ],
+      "confidence": 0.7693609595298767,
+      "source": "legend",
+      "rawClass": "light-recessed",
+      "reviewed": false,
+      "id": "det-1b8b9d6a28d53c",
+      "supportingSources": [
+        "mepdetect"
+      ],
+      "classificationNote": "Non-square light symbol by IN ATTIC label; review fixture specification",
+      "tags": [],
+      "roomId": "region-0-7",
+      "roomMethod": "traced sheet boundary \u2014 review open-plan divisions"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "region-0-0",
+      "name": "Equipment alcove (unlabelled)",
+      "x0": 0.78,
+      "y0": 0.13333333333333333,
+      "x1": 0.894,
+      "y1": 0.23333333333333334,
+      "source": "sheet-wall-review"
+    },
+    {
+      "id": "region-0-1",
+      "name": "Laundry",
+      "x0": 0.38,
+      "y0": 0.13333333333333333,
+      "x1": 0.59,
+      "y1": 0.24833333333333332,
+      "source": "sheet-wall-review"
+    },
+    {
+      "id": "region-0-2",
+      "name": "Closet 1",
+      "x0": 0.59,
+      "y0": 0.4083333333333333,
+      "x1": 0.894,
+      "y1": 0.48333333333333334,
+      "source": "sheet-wall-review"
+    },
+    {
+      "id": "region-0-3",
+      "name": "Closet 2",
+      "x0": 0.116,
+      "y0": 0.675,
+      "x1": 0.22,
+      "y1": 0.78,
+      "source": "sheet-wall-review"
+    },
+    {
+      "id": "region-0-4",
+      "name": "Bath",
+      "x0": 0.59,
+      "y0": 0.13333333333333333,
+      "x1": 0.894,
+      "y1": 0.4083333333333333,
+      "source": "sheet-wall-review"
+    },
+    {
+      "id": "region-0-5",
+      "name": "Bedroom / Studio",
+      "x0": 0.59,
+      "y0": 0.48333333333333334,
+      "x1": 0.894,
+      "y1": 0.78,
+      "source": "sheet-wall-review"
+    },
+    {
+      "id": "region-0-6",
+      "name": "Kitchen / Dining",
+      "x0": 0.116,
+      "y0": 0.13333333333333333,
+      "x1": 0.59,
+      "y1": 0.475,
+      "source": "sheet-wall-review",
+      "polygon": [
+        [
+          0.116,
+          0.13333333333333333
+        ],
+        [
+          0.59,
+          0.13333333333333333
+        ],
+        [
+          0.59,
+          0.475
+        ],
+        [
+          0.24,
+          0.475
+        ],
+        [
+          0.24,
+          0.6166666666666667
+        ],
+        [
+          0.116,
+          0.6166666666666667
+        ]
+      ]
+    },
+    {
+      "id": "region-0-7",
+      "name": "Living",
+      "x0": 0.116,
+      "y0": 0.475,
+      "x1": 0.59,
+      "y1": 0.78,
+      "source": "sheet-wall-review",
+      "polygon": [
+        [
+          0.24,
+          0.475
+        ],
+        [
+          0.59,
+          0.475
+        ],
+        [
+          0.59,
+          0.78
+        ],
+        [
+          0.116,
+          0.78
+        ],
+        [
+          0.116,
+          0.6166666666666667
+        ],
+        [
+          0.24,
+          0.6166666666666667
+        ]
+      ]
+    },
+    {
+      "id": "Exterior",
+      "name": "Exterior",
+      "source": "user-review"
+    }
+  ],
+  "providers": [
+    {
+      "provider": "Legend matching",
+      "count": 19,
+      "model": "Escondido legend, 4 rotations"
+    },
+    {
+      "provider": "Vector legend",
+      "count": 55,
+      "model": "CAD stroke geometry + PDF text tags"
+    },
+    {
+      "provider": "MEPdetect",
+      "model": "0291b928",
+      "jobId": "4d5a9889-13d7-43de-8b29-1b89ddc5db93",
+      "count": 41
+    },
+    {
+      "provider": "Roboflow",
+      "model": "atreyus-takeoff/atreyus-electical-biae4-1-rfdetr-small-t1",
+      "tiles": 9,
+      "fullImage": true,
+      "count": 0
+    }
+  ],
+  "warnings": [],
+  "engine": "hybrid",
+  "pipelineVersion": "3.1.0",
+  "cached": false,
+  "rejectedDetections": [
+    {
+      "rawClass": "light_fixture_generic",
+      "confidence": 0.8899779319763184,
+      "bbox": [
+        225.2345428466797,
+        2209.2281494140625,
+        264.56561279296875,
+        2250.9906005859375
+      ],
+      "center": [
+        244.90008544921875,
+        2230.109375
+      ],
+      "source": "mepdetect",
+      "type": "light-generic",
+      "reviewed": false,
+      "id": "det-ec5a6e80f36e2c",
+      "rejectionReason": "Crossed structural column symbol, not a light"
+    },
+    {
+      "rawClass": "light_fixture_generic",
+      "confidence": 0.8837729096412659,
+      "bbox": [
+        1162.8763427734375,
+        2208.1521606445312,
+        1202.8531951904297,
+        2251.0994262695312
+      ],
+      "center": [
+        1182.8647766113281,
+        2229.6257934570312
+      ],
+      "source": "mepdetect",
+      "type": "light-generic",
+      "reviewed": false,
+      "id": "det-8e312f7cd506c2",
+      "rejectionReason": "Crossed structural column symbol, not a light"
+    },
+    {
+      "rawClass": "receptacle_duplex",
+      "confidence": 0.2612907588481903,
+      "bbox": [
+        976.2008239775896,
+        1760.1937255859375,
+        1015.7868347167969,
+        1791.490234375
+      ],
+      "center": [
+        995.9938297271729,
+        1775.8419799804688
+      ],
+      "source": "mepdetect",
+      "type": "receptacle-afi",
+      "reviewed": false,
+      "id": "det-75ef2a4cba0f07",
+      "rejectionReason": "Model proposal centered on printed text rather than a symbol"
+    }
+  ],
+  "analyzedAt": 1793208876.5855007,
+  "reviewRequired": true,
+  "build": "500e364adf1a",
+  "runs": [
+    {
+      "id": "run-f658ec931cad",
+      "fromId": "det-e0f61dcf2d1263",
+      "toId": "det-77a878b6beb20e",
+      "points": [
+        [
+          0.1486081667282317,
+          0.37490112018751937
+        ],
+        [
+          0.170159912109375,
+          0.37073343912760415
+        ],
+        [
+          0.1773599853515625,
+          0.36413330078125
+        ],
+        [
+          0.180239990234375,
+          0.3603334554036458
+        ],
+        [
+          0.1835999755859375,
+          0.3523333740234375
+        ],
+        [
+          0.1840799560546875,
+          0.34833333333333333
+        ],
+        [
+          0.182159912109375,
+          0.340533447265625
+        ],
+        [
+          0.176159912109375,
+          0.3335333251953125
+        ],
+        [
+          0.1651199951171875,
+          0.3285333251953125
+        ],
+        [
+          0.15743994140625,
+          0.3267333984375
+        ],
+        [
+          0.1483199462890625,
+          0.32573343912760416
+        ],
+        [
+          0.1506400107032732,
+          0.3257896954219129
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.170159912109375,
+          0.37073343912760415
+        ],
+        [
+          0.174,
+          0.3675333658854167
+        ],
+        [
+          0.1773599853515625,
+          0.36413330078125
+        ],
+        [
+          0.180239990234375,
+          0.3603334554036458
+        ],
+        [
+          0.182159912109375,
+          0.3563334147135417
+        ],
+        [
+          0.1835999755859375,
+          0.3523333740234375
+        ],
+        [
+          0.1840799560546875,
+          0.34833333333333333
+        ],
+        [
+          0.1835999755859375,
+          0.34433329264322915
+        ],
+        [
+          0.182159912109375,
+          0.340533447265625
+        ],
+        [
+          0.179760009765625,
+          0.33693339029947916
+        ],
+        [
+          0.176159912109375,
+          0.3335333251953125
+        ],
+        [
+          0.1711199951171875,
+          0.33073343912760417
+        ],
+        [
+          0.1651199951171875,
+          0.3285333251953125
+        ],
+        [
+          0.15743994140625,
+          0.3267333984375
+        ],
+        [
+          0.1483199462890625,
+          0.32573343912760416
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4119,
+        4120,
+        4121,
+        4122,
+        4123,
+        4124,
+        4125,
+        4126,
+        4127,
+        4128,
+        4129,
+        4130,
+        4131,
+        4132
+      ],
+      "dashGaps": 0,
+      "observedLengthPdfPoints": 40.44625831522986,
+      "endpointLeadPdfPoints": [
+        11.06220935408434,
+        1.1605231746740337
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-97359b51fd17",
+      "fromId": "det-8fe981601defe3",
+      "toId": "det-132888f1a46830",
+      "points": [
+        [
+          0.7532785299023599,
+          0.6271666320833065
+        ],
+        [
+          0.709919921875,
+          0.6265334065755208
+        ],
+        [
+          0.6950400390625,
+          0.6249334716796875
+        ],
+        [
+          0.684,
+          0.6225333658854166
+        ],
+        [
+          0.67056005859375,
+          0.6181333414713541
+        ],
+        [
+          0.66,
+          0.612933349609375
+        ],
+        [
+          0.6489599609375,
+          0.6059334309895833
+        ],
+        [
+          0.6169134964704781,
+          0.6053200032175461
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.7509599609375,
+          0.6271333821614583
+        ],
+        [
+          0.744,
+          0.6269333902994791
+        ],
+        [
+          0.73847998046875,
+          0.6267333984375
+        ],
+        [
+          0.734159912109375,
+          0.6267333984375
+        ],
+        [
+          0.7310400390625,
+          0.6267333984375
+        ],
+        [
+          0.728159912109375,
+          0.6267333984375
+        ],
+        [
+          0.725760009765625,
+          0.6267333984375
+        ],
+        [
+          0.72383984375,
+          0.6267333984375
+        ],
+        [
+          0.71039990234375,
+          0.6265334065755208
+        ],
+        [
+          0.709919921875,
+          0.6265334065755208
+        ],
+        [
+          0.70656005859375,
+          0.6263334147135416
+        ],
+        [
+          0.703199951171875,
+          0.6259334309895833
+        ],
+        [
+          0.699119873046875,
+          0.625533447265625
+        ],
+        [
+          0.6950400390625,
+          0.6249334716796875
+        ],
+        [
+          0.690719970703125,
+          0.62413330078125
+        ],
+        [
+          0.685919921875,
+          0.622933349609375
+        ],
+        [
+          0.684,
+          0.6225333658854166
+        ],
+        [
+          0.671280029296875,
+          0.6183333333333333
+        ],
+        [
+          0.67056005859375,
+          0.6181333414713541
+        ],
+        [
+          0.665280029296875,
+          0.6157334391276041
+        ],
+        [
+          0.66,
+          0.612933349609375
+        ],
+        [
+          0.65447998046875,
+          0.6097334798177083
+        ],
+        [
+          0.6489599609375,
+          0.6059334309895833
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4133,
+        4134,
+        4135,
+        4136,
+        4137,
+        4138,
+        4139,
+        4140,
+        4141,
+        4142,
+        4143,
+        4144,
+        4145,
+        4146,
+        4147,
+        4148,
+        4149,
+        4150,
+        4151,
+        4152
+      ],
+      "dashGaps": 2,
+      "observedLengthPdfPoints": 54.03958402925558,
+      "endpointLeadPdfPoints": [
+        1.1594561276011692,
+        16.027458841512175
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-ae11f7a6fae5",
+      "fromId": "det-aede0bfeffdbdb",
+      "toId": "det-3aa8b19bd6e3db",
+      "points": [
+        [
+          0.6169134984433453,
+          0.244920020064235
+        ],
+        [
+          0.6448798828125,
+          0.245533447265625
+        ],
+        [
+          0.6508798828125,
+          0.24193339029947916
+        ],
+        [
+          0.654719970703125,
+          0.2417333984375
+        ],
+        [
+          0.66431982421875,
+          0.24313334147135415
+        ],
+        [
+          0.691679931640625,
+          0.25073343912760415
+        ],
+        [
+          0.702,
+          0.25133341471354165
+        ],
+        [
+          0.70656005859375,
+          0.250533447265625
+        ],
+        [
+          0.71039990234375,
+          0.24873331705729165
+        ],
+        [
+          0.713760009765625,
+          0.245533447265625
+        ],
+        [
+          0.7180800838211995,
+          0.23746663443870641
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.6448798828125,
+          0.245533447265625
+        ],
+        [
+          0.64752001953125,
+          0.24333333333333335
+        ],
+        [
+          0.6508798828125,
+          0.24193339029947916
+        ],
+        [
+          0.654719970703125,
+          0.2417333984375
+        ],
+        [
+          0.659280029296875,
+          0.24213338216145833
+        ],
+        [
+          0.66431982421875,
+          0.24313334147135415
+        ],
+        [
+          0.669599853515625,
+          0.24453348795572916
+        ],
+        [
+          0.673199951171875,
+          0.24573343912760418
+        ],
+        [
+          0.685919921875,
+          0.24933329264322918
+        ],
+        [
+          0.686159912109375,
+          0.24953348795572916
+        ],
+        [
+          0.691679931640625,
+          0.25073343912760415
+        ],
+        [
+          0.6969599609375,
+          0.25133341471354165
+        ],
+        [
+          0.702,
+          0.25133341471354165
+        ],
+        [
+          0.70656005859375,
+          0.250533447265625
+        ],
+        [
+          0.71039990234375,
+          0.24873331705729165
+        ],
+        [
+          0.713760009765625,
+          0.245533447265625
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4153,
+        4154,
+        4155,
+        4156,
+        4157,
+        4158,
+        4159,
+        4160,
+        4161,
+        4162,
+        4163,
+        4164,
+        4165,
+        4166
+      ],
+      "dashGaps": 1,
+      "observedLengthPdfPoints": 37.268436109620716,
+      "endpointLeadPdfPoints": [
+        13.988035213214545,
+        5.3002083796626
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-40e2e68464fd",
+      "fromId": "det-4022e81d6177a0",
+      "toId": "det-6047a9960b3ba3",
+      "points": [
+        [
+          0.8708793948274206,
+          0.26981654341300704
+        ],
+        [
+          0.86039990234375,
+          0.27073343912760417
+        ],
+        [
+          0.82631982421875,
+          0.2833333333333333
+        ],
+        [
+          0.8008798828125,
+          0.290533447265625
+        ],
+        [
+          0.787679931640625,
+          0.2935333251953125
+        ],
+        [
+          0.762239990234375,
+          0.2973333740234375
+        ],
+        [
+          0.742800048828125,
+          0.297933349609375
+        ],
+        [
+          0.734159912109375,
+          0.2975333658854167
+        ],
+        [
+          0.7209599609375,
+          0.295533447265625
+        ],
+        [
+          0.702,
+          0.29033345540364586
+        ],
+        [
+          0.684,
+          0.28213338216145833
+        ],
+        [
+          0.671280029296875,
+          0.2783333333333333
+        ],
+        [
+          0.664079833984375,
+          0.2783333333333333
+        ],
+        [
+          0.648,
+          0.2813334147135417
+        ],
+        [
+          0.6169040442180772,
+          0.28111723662266097
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.86039990234375,
+          0.27073343912760417
+        ],
+        [
+          0.843119873046875,
+          0.2773333740234375
+        ],
+        [
+          0.838800048828125,
+          0.2789333089192708
+        ],
+        [
+          0.82631982421875,
+          0.2833333333333333
+        ],
+        [
+          0.812159912109375,
+          0.28753336588541667
+        ],
+        [
+          0.8008798828125,
+          0.290533447265625
+        ],
+        [
+          0.787679931640625,
+          0.2935333251953125
+        ],
+        [
+          0.785280029296875,
+          0.29393330891927083
+        ],
+        [
+          0.773280029296875,
+          0.29593343098958336
+        ],
+        [
+          0.762239990234375,
+          0.2973333740234375
+        ],
+        [
+          0.761280029296875,
+          0.2973333740234375
+        ],
+        [
+          0.747599853515625,
+          0.297933349609375
+        ],
+        [
+          0.742800048828125,
+          0.297933349609375
+        ],
+        [
+          0.734159912109375,
+          0.2975333658854167
+        ],
+        [
+          0.72647998046875,
+          0.29653340657552085
+        ],
+        [
+          0.7209599609375,
+          0.295533447265625
+        ],
+        [
+          0.708,
+          0.2923333740234375
+        ],
+        [
+          0.707280029296875,
+          0.29213338216145834
+        ],
+        [
+          0.702,
+          0.29033345540364586
+        ],
+        [
+          0.697199951171875,
+          0.28833333333333333
+        ],
+        [
+          0.693119873046875,
+          0.2863334147135417
+        ],
+        [
+          0.689280029296875,
+          0.2845334879557292
+        ],
+        [
+          0.685919921875,
+          0.282933349609375
+        ],
+        [
+          0.684,
+          0.28213338216145833
+        ],
+        [
+          0.671280029296875,
+          0.2783333333333333
+        ],
+        [
+          0.667919921875,
+          0.27813334147135416
+        ],
+        [
+          0.664079833984375,
+          0.2783333333333333
+        ],
+        [
+          0.65952001953125,
+          0.2789333089192708
+        ],
+        [
+          0.654239990234375,
+          0.2799334716796875
+        ],
+        [
+          0.648,
+          0.2813334147135417
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4167,
+        4168,
+        4169,
+        4170,
+        4171,
+        4172,
+        4173,
+        4174,
+        4175,
+        4176,
+        4177,
+        4178,
+        4179,
+        4180,
+        4181,
+        4182,
+        4183,
+        4184,
+        4185,
+        4187,
+        4188,
+        4189,
+        4190,
+        4191
+      ],
+      "dashGaps": 5,
+      "observedLengthPdfPoints": 111.4757317156899,
+      "endpointLeadPdfPoints": [
+        5.26854741549773,
+        15.548518912293119
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-bfc00920b4f5",
+      "fromId": "det-1fc9cae9c77989",
+      "toId": "det-7d891b3931fa3d",
+      "points": [
+        [
+          0.6169040442180772,
+          0.26111723662266095
+        ],
+        [
+          0.648239990234375,
+          0.2621333821614583
+        ],
+        [
+          0.65856005859375,
+          0.260533447265625
+        ],
+        [
+          0.668639892578125,
+          0.26013346354166667
+        ],
+        [
+          0.678719970703125,
+          0.2609334309895833
+        ],
+        [
+          0.6988798828125,
+          0.2665334065755208
+        ],
+        [
+          0.7188000981827467,
+          0.27724693954773233
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.648239990234375,
+          0.2621333821614583
+        ],
+        [
+          0.65856005859375,
+          0.260533447265625
+        ],
+        [
+          0.668639892578125,
+          0.26013346354166667
+        ],
+        [
+          0.678719970703125,
+          0.2609334309895833
+        ],
+        [
+          0.679199951171875,
+          0.2611334228515625
+        ],
+        [
+          0.692159912109375,
+          0.2643332926432292
+        ],
+        [
+          0.6988798828125,
+          0.2665334065755208
+        ],
+        [
+          0.708719970703125,
+          0.27133341471354167
+        ],
+        [
+          0.718800048828125,
+          0.2773333740234375
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4192,
+        4193,
+        4194,
+        4195,
+        4196,
+        4197,
+        4198
+      ],
+      "dashGaps": 1,
+      "observedLengthPdfPoints": 37.88845403020067,
+      "endpointLeadPdfPoints": [
+        15.679830892463398,
+        0.05186069129430085
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-5f694703abe9",
+      "fromId": "det-af117d98b547a2",
+      "toId": "det-3a74631311eaab",
+      "points": [
+        [
+          0.3583145235989987,
+          0.7588133251926757
+        ],
+        [
+          0.35639990234375,
+          0.7323333740234375
+        ],
+        [
+          0.35783984375,
+          0.7271333821614583
+        ],
+        [
+          0.355199951171875,
+          0.7237333170572917
+        ],
+        [
+          0.35256005859375,
+          0.7227333577473959
+        ],
+        [
+          0.349679931640625,
+          0.7227333577473959
+        ],
+        [
+          0.3448798828125,
+          0.7245332845052084
+        ],
+        [
+          0.339599853515625,
+          0.7287333170572917
+        ],
+        [
+          0.33239990234375,
+          0.7383333333333333
+        ],
+        [
+          0.329280029296875,
+          0.74413330078125
+        ],
+        [
+          0.323280029296875,
+          0.757933349609375
+        ],
+        [
+          0.319919921875,
+          0.7703334554036458
+        ],
+        [
+          0.3189599609375,
+          0.7777333577473958
+        ],
+        [
+          0.31943994140625,
+          0.782933349609375
+        ],
+        [
+          0.3208798828125,
+          0.7873333740234375
+        ],
+        [
+          0.323760009765625,
+          0.7907334391276042
+        ],
+        [
+          0.3369599609375,
+          0.7963334147135417
+        ],
+        [
+          0.349919921875,
+          0.7981333414713542
+        ],
+        [
+          0.3666366735798088,
+          0.7988008817743175
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.35639990234375,
+          0.7323333740234375
+        ],
+        [
+          0.357599853515625,
+          0.7293332926432292
+        ],
+        [
+          0.35783984375,
+          0.7271333821614583
+        ],
+        [
+          0.35735986328125,
+          0.7257334391276041
+        ],
+        [
+          0.35639990234375,
+          0.7245332845052084
+        ],
+        [
+          0.355199951171875,
+          0.7237333170572917
+        ],
+        [
+          0.353760009765625,
+          0.7231333414713542
+        ],
+        [
+          0.35256005859375,
+          0.7227333577473959
+        ],
+        [
+          0.351119873046875,
+          0.7227333577473959
+        ],
+        [
+          0.349679931640625,
+          0.7227333577473959
+        ],
+        [
+          0.348,
+          0.7231333414713542
+        ],
+        [
+          0.34656005859375,
+          0.7237333170572917
+        ],
+        [
+          0.3448798828125,
+          0.7245332845052084
+        ],
+        [
+          0.343199951171875,
+          0.7257334391276041
+        ],
+        [
+          0.34152001953125,
+          0.7269333902994791
+        ],
+        [
+          0.339599853515625,
+          0.7287333170572917
+        ],
+        [
+          0.33239990234375,
+          0.7383333333333333
+        ],
+        [
+          0.3309599609375,
+          0.7409334309895833
+        ],
+        [
+          0.329280029296875,
+          0.74413330078125
+        ],
+        [
+          0.327599853515625,
+          0.7475333658854166
+        ],
+        [
+          0.326159912109375,
+          0.7509334309895833
+        ],
+        [
+          0.324719970703125,
+          0.7543332926432291
+        ],
+        [
+          0.323280029296875,
+          0.757933349609375
+        ],
+        [
+          0.322800048828125,
+          0.7593332926432291
+        ],
+        [
+          0.319919921875,
+          0.7703334554036458
+        ],
+        [
+          0.319679931640625,
+          0.7717333984375
+        ],
+        [
+          0.319199951171875,
+          0.7747332763671875
+        ],
+        [
+          0.3189599609375,
+          0.7777333577473958
+        ],
+        [
+          0.319199951171875,
+          0.780533447265625
+        ],
+        [
+          0.31943994140625,
+          0.782933349609375
+        ],
+        [
+          0.320159912109375,
+          0.7851334635416667
+        ],
+        [
+          0.3208798828125,
+          0.7873333740234375
+        ],
+        [
+          0.322320068359375,
+          0.78913330078125
+        ],
+        [
+          0.323760009765625,
+          0.7907334391276042
+        ],
+        [
+          0.3249599609375,
+          0.7915334065755208
+        ],
+        [
+          0.3369599609375,
+          0.7963334147135417
+        ],
+        [
+          0.340800048828125,
+          0.7969333902994792
+        ],
+        [
+          0.345119873046875,
+          0.7975333658854167
+        ],
+        [
+          0.349919921875,
+          0.7981333414713542
+        ],
+        [
+          0.3549599609375,
+          0.7985333251953125
+        ],
+        [
+          0.36047998046875,
+          0.7987333170572917
+        ],
+        [
+          0.366719970703125,
+          0.79913330078125
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4199,
+        4200,
+        4201,
+        4202,
+        4203,
+        4204,
+        4205,
+        4206,
+        4207,
+        4208,
+        4209,
+        4210,
+        4211,
+        4212,
+        4213,
+        4215,
+        4216,
+        4217,
+        4218,
+        4219,
+        4220,
+        4221,
+        4222,
+        4223,
+        4224,
+        4225,
+        4226,
+        4227,
+        4228,
+        4229,
+        4230,
+        4231,
+        4233,
+        4234,
+        4235,
+        4236,
+        4237,
+        4238
+      ],
+      "dashGaps": 3,
+      "observedLengthPdfPoints": 77.21923173647923,
+      "endpointLeadPdfPoints": [
+        15.916785374278607,
+        0.20375344244794516
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-c03e960418b6",
+      "fromId": "det-8fe981601defe3",
+      "toId": "det-1e07f6daa5fa94",
+      "points": [
+        [
+          0.7532785299023599,
+          0.6271666320833065
+        ],
+        [
+          0.75239990234375,
+          0.6201334635416667
+        ],
+        [
+          0.749280029296875,
+          0.6123333740234375
+        ],
+        [
+          0.7408798828125,
+          0.6035333251953126
+        ],
+        [
+          0.73439990234375,
+          0.5997334798177083
+        ],
+        [
+          0.726239990234375,
+          0.5963334147135416
+        ],
+        [
+          0.703679931640625,
+          0.5917333984375
+        ],
+        [
+          0.69239990234375,
+          0.5907334391276041
+        ],
+        [
+          0.66239990234375,
+          0.590533447265625
+        ],
+        [
+          0.6169039865093328,
+          0.5919173908289735
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.75335986328125,
+          0.6271333821614583
+        ],
+        [
+          0.75239990234375,
+          0.6201334635416667
+        ],
+        [
+          0.750239990234375,
+          0.6139333089192708
+        ],
+        [
+          0.749280029296875,
+          0.6123333740234375
+        ],
+        [
+          0.7408798828125,
+          0.6035333251953126
+        ],
+        [
+          0.73439990234375,
+          0.5997334798177083
+        ],
+        [
+          0.726239990234375,
+          0.5963334147135416
+        ],
+        [
+          0.7168798828125,
+          0.5939333089192709
+        ],
+        [
+          0.703679931640625,
+          0.5917333984375
+        ],
+        [
+          0.69239990234375,
+          0.5907334391276041
+        ],
+        [
+          0.678,
+          0.5903334554036458
+        ],
+        [
+          0.676800048828125,
+          0.5903334554036458
+        ],
+        [
+          0.663119873046875,
+          0.590533447265625
+        ],
+        [
+          0.66239990234375,
+          0.590533447265625
+        ],
+        [
+          0.645119873046875,
+          0.5915334065755208
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4239,
+        4240,
+        4241,
+        4242,
+        4243,
+        4244,
+        4245,
+        4246,
+        4247,
+        4248,
+        4249
+      ],
+      "dashGaps": 3,
+      "observedLengthPdfPoints": 65.40933192220658,
+      "endpointLeadPdfPoints": [
+        0.045296581101315035,
+        14.10982434622587
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-bb8eee7ae28b",
+      "fromId": "det-1a7d9cfac758a2",
+      "toId": "det-e333de1a1fac2b",
+      "points": [
+        [
+          0.4406398434380162,
+          0.325852529823007
+        ],
+        [
+          0.440639892578125,
+          0.3237333170572917
+        ],
+        [
+          0.43247998046875,
+          0.3399334716796875
+        ],
+        [
+          0.426,
+          0.35533345540364586
+        ],
+        [
+          0.421199951171875,
+          0.37013346354166665
+        ],
+        [
+          0.418079833984375,
+          0.3837333170572917
+        ],
+        [
+          0.41639990234375,
+          0.39753336588541666
+        ],
+        [
+          0.41735986328125,
+          0.4173333740234375
+        ],
+        [
+          0.421199951171875,
+          0.43393330891927084
+        ],
+        [
+          0.43247998046875,
+          0.4549334716796875
+        ],
+        [
+          0.4406398434379357,
+          0.4644525745537237
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.440639892578125,
+          0.3237333170572917
+        ],
+        [
+          0.43247998046875,
+          0.3399334716796875
+        ],
+        [
+          0.43247998046875,
+          0.34033345540364585
+        ],
+        [
+          0.427919921875,
+          0.35093343098958335
+        ],
+        [
+          0.426,
+          0.35533345540364586
+        ],
+        [
+          0.421199951171875,
+          0.37013346354166665
+        ],
+        [
+          0.420719970703125,
+          0.3725333658854167
+        ],
+        [
+          0.418079833984375,
+          0.3837333170572917
+        ],
+        [
+          0.418079833984375,
+          0.38413330078125
+        ],
+        [
+          0.41639990234375,
+          0.39753336588541666
+        ],
+        [
+          0.41639990234375,
+          0.4061334228515625
+        ],
+        [
+          0.41735986328125,
+          0.4173333740234375
+        ],
+        [
+          0.418079833984375,
+          0.4225333658854167
+        ],
+        [
+          0.421199951171875,
+          0.43393330891927084
+        ],
+        [
+          0.423599853515625,
+          0.43913330078125
+        ],
+        [
+          0.429119873046875,
+          0.4493332926432292
+        ],
+        [
+          0.43247998046875,
+          0.4549334716796875
+        ],
+        [
+          0.440639892578125,
+          0.46433329264322915
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4250,
+        4251,
+        4252,
+        4253,
+        4254,
+        4255,
+        4256,
+        4257,
+        4258,
+        4259,
+        4260,
+        4261,
+        4262
+      ],
+      "dashGaps": 4,
+      "observedLengthPdfPoints": 89.00513203069946,
+      "endpointLeadPdfPoints": [
+        1.271527659666569,
+        0.07156915051425072
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-018a5fdb40a8",
+      "fromId": "det-8d47b4f97f11ba",
+      "toId": "det-9d4aee5e90ed3d",
+      "points": [
+        [
+          0.36574126714404975,
+          0.20397422493729617
+        ],
+        [
+          0.336239990234375,
+          0.20373331705729167
+        ],
+        [
+          0.304079833984375,
+          0.21073343912760417
+        ],
+        [
+          0.28656005859375,
+          0.21653340657552084
+        ],
+        [
+          0.272639892578125,
+          0.22253336588541667
+        ],
+        [
+          0.25656005859375,
+          0.2317333984375
+        ],
+        [
+          0.249119873046875,
+          0.23693339029947916
+        ],
+        [
+          0.2392799072265625,
+          0.245533447265625
+        ],
+        [
+          0.229679931640625,
+          0.2567333984375
+        ],
+        [
+          0.223919921875,
+          0.26533345540364583
+        ],
+        [
+          0.217919921875,
+          0.27693339029947917
+        ],
+        [
+          0.2140799560546875,
+          0.28773335774739583
+        ],
+        [
+          0.210719970703125,
+          0.30153340657552086
+        ],
+        [
+          0.2090399169921875,
+          0.31513346354166666
+        ],
+        [
+          0.20903996613409753,
+          0.3132145168315172
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.336239990234375,
+          0.20373331705729167
+        ],
+        [
+          0.31847998046875,
+          0.20713338216145832
+        ],
+        [
+          0.304079833984375,
+          0.21073343912760417
+        ],
+        [
+          0.29135986328125,
+          0.2149334716796875
+        ],
+        [
+          0.28656005859375,
+          0.21653340657552084
+        ],
+        [
+          0.272639892578125,
+          0.22253336588541667
+        ],
+        [
+          0.267599853515625,
+          0.22533345540364583
+        ],
+        [
+          0.25656005859375,
+          0.2317333984375
+        ],
+        [
+          0.249119873046875,
+          0.23693339029947916
+        ],
+        [
+          0.2392799072265625,
+          0.245533447265625
+        ],
+        [
+          0.2375999755859375,
+          0.24753336588541666
+        ],
+        [
+          0.229679931640625,
+          0.2567333984375
+        ],
+        [
+          0.223919921875,
+          0.26533345540364583
+        ],
+        [
+          0.218159912109375,
+          0.27653340657552083
+        ],
+        [
+          0.217919921875,
+          0.27693339029947917
+        ],
+        [
+          0.2140799560546875,
+          0.28773335774739583
+        ],
+        [
+          0.2138399658203125,
+          0.2885333251953125
+        ],
+        [
+          0.210719970703125,
+          0.30153340657552086
+        ],
+        [
+          0.2090399169921875,
+          0.31513346354166666
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4263,
+        4264,
+        4265,
+        4266,
+        4267,
+        4268,
+        4269,
+        4270,
+        4271,
+        4272,
+        4273,
+        4274,
+        4275,
+        4276
+      ],
+      "dashGaps": 4,
+      "observedLengthPdfPoints": 100.7859651965169,
+      "endpointLeadPdfPoints": [
+        14.751346650517045,
+        1.1513680263518793
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-f0cdd6fa25c2",
+      "fromId": "det-4e0bee3edad6ea",
+      "toId": "det-57fb4acb8f6932",
+      "points": [
+        [
+          0.14916809004756396,
+          0.43252430582539136
+        ],
+        [
+          0.1790399169921875,
+          0.4331333414713542
+        ],
+        [
+          0.185760009765625,
+          0.43573343912760415
+        ],
+        [
+          0.1907999267578125,
+          0.4387333170572917
+        ],
+        [
+          0.19439990234375,
+          0.44253336588541664
+        ],
+        [
+          0.1965599365234375,
+          0.44753336588541665
+        ],
+        [
+          0.1955999755859375,
+          0.45873331705729165
+        ],
+        [
+          0.193679931640625,
+          0.4635333251953125
+        ],
+        [
+          0.1843199462890625,
+          0.47773335774739584
+        ],
+        [
+          0.17744016880509797,
+          0.48294332732695805
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.1790399169921875,
+          0.4331333414713542
+        ],
+        [
+          0.185760009765625,
+          0.43573343912760415
+        ],
+        [
+          0.1907999267578125,
+          0.4387333170572917
+        ],
+        [
+          0.19439990234375,
+          0.44253336588541664
+        ],
+        [
+          0.1965599365234375,
+          0.44693339029947915
+        ],
+        [
+          0.1965599365234375,
+          0.44753336588541665
+        ],
+        [
+          0.1955999755859375,
+          0.45873331705729165
+        ],
+        [
+          0.193679931640625,
+          0.4635333251953125
+        ],
+        [
+          0.1898399658203125,
+          0.47033345540364585
+        ],
+        [
+          0.1843199462890625,
+          0.47773335774739584
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4277,
+        4278,
+        4279,
+        4280,
+        4281,
+        4282,
+        4283,
+        4284
+      ],
+      "dashGaps": 1,
+      "observedLengthPdfPoints": 32.42861494912891,
+      "endpointLeadPdfPoints": [
+        14.94038299518735,
+        4.64807448782862
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-a181e5b60617",
+      "fromId": "det-ebc52fec28c53d",
+      "toId": "det-0cafccaec97c89",
+      "points": [
+        [
+          0.374392153560972,
+          0.7588192028984628
+        ],
+        [
+          0.377280029296875,
+          0.7331333414713541
+        ],
+        [
+          0.374639892578125,
+          0.7221333821614583
+        ],
+        [
+          0.367919921875,
+          0.7135333251953125
+        ],
+        [
+          0.35735986328125,
+          0.7065334065755209
+        ],
+        [
+          0.346800048828125,
+          0.7023333740234375
+        ],
+        [
+          0.33383984375,
+          0.6985333251953125
+        ],
+        [
+          0.296159912109375,
+          0.6901334635416667
+        ],
+        [
+          0.2810400390625,
+          0.6843332926432292
+        ],
+        [
+          0.272159912109375,
+          0.6787333170572917
+        ],
+        [
+          0.26543994140625,
+          0.6717333984375
+        ],
+        [
+          0.2630400390625,
+          0.6681333414713542
+        ],
+        [
+          0.259199951171875,
+          0.6573333740234375
+        ],
+        [
+          0.255599853515625,
+          0.6353334554036458
+        ],
+        [
+          0.2510400390625,
+          0.6199334716796875
+        ],
+        [
+          0.2455198974609375,
+          0.6063334147135416
+        ],
+        [
+          0.2315999755859375,
+          0.5793332926432292
+        ],
+        [
+          0.2090399169921875,
+          0.542933349609375
+        ],
+        [
+          0.20903996643715572,
+          0.5448605875351685
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.377280029296875,
+          0.7331333414713541
+        ],
+        [
+          0.376320068359375,
+          0.7273333740234375
+        ],
+        [
+          0.374639892578125,
+          0.7221333821614583
+        ],
+        [
+          0.371760009765625,
+          0.7175333658854167
+        ],
+        [
+          0.368159912109375,
+          0.7137333170572917
+        ],
+        [
+          0.367919921875,
+          0.7135333251953125
+        ],
+        [
+          0.35735986328125,
+          0.7065334065755209
+        ],
+        [
+          0.352800048828125,
+          0.7045332845052084
+        ],
+        [
+          0.346800048828125,
+          0.7023333740234375
+        ],
+        [
+          0.34056005859375,
+          0.7003334554036459
+        ],
+        [
+          0.33383984375,
+          0.6985333251953125
+        ],
+        [
+          0.332159912109375,
+          0.6983333333333334
+        ],
+        [
+          0.319199951171875,
+          0.6953334554036459
+        ],
+        [
+          0.313919921875,
+          0.6943332926432292
+        ],
+        [
+          0.307679931640625,
+          0.692933349609375
+        ],
+        [
+          0.301679931640625,
+          0.6915334065755209
+        ],
+        [
+          0.296159912109375,
+          0.6901334635416667
+        ],
+        [
+          0.293280029296875,
+          0.68913330078125
+        ],
+        [
+          0.2810400390625,
+          0.6843332926432292
+        ],
+        [
+          0.278639892578125,
+          0.682933349609375
+        ],
+        [
+          0.275280029296875,
+          0.6809334309895834
+        ],
+        [
+          0.272159912109375,
+          0.6787333170572917
+        ],
+        [
+          0.269760009765625,
+          0.6765334065755209
+        ],
+        [
+          0.26735986328125,
+          0.67413330078125
+        ],
+        [
+          0.26543994140625,
+          0.6717333984375
+        ],
+        [
+          0.263760009765625,
+          0.6693332926432292
+        ],
+        [
+          0.2630400390625,
+          0.6681333414713542
+        ],
+        [
+          0.259199951171875,
+          0.6573333740234375
+        ],
+        [
+          0.258719970703125,
+          0.655533447265625
+        ],
+        [
+          0.258239990234375,
+          0.6527333577473958
+        ],
+        [
+          0.258,
+          0.6497334798177083
+        ],
+        [
+          0.25752001953125,
+          0.6465334065755208
+        ],
+        [
+          0.2570400390625,
+          0.6431333414713541
+        ],
+        [
+          0.25656005859375,
+          0.6393332926432291
+        ],
+        [
+          0.255599853515625,
+          0.6353334554036458
+        ],
+        [
+          0.25247998046875,
+          0.62413330078125
+        ],
+        [
+          0.2510400390625,
+          0.6199334716796875
+        ],
+        [
+          0.248639892578125,
+          0.6135333251953125
+        ],
+        [
+          0.2455198974609375,
+          0.6063334147135416
+        ],
+        [
+          0.2438399658203125,
+          0.602933349609375
+        ],
+        [
+          0.2385599365234375,
+          0.5925333658854167
+        ],
+        [
+          0.2368800048828125,
+          0.5893332926432292
+        ],
+        [
+          0.2315999755859375,
+          0.5793332926432292
+        ],
+        [
+          0.2272799072265625,
+          0.5721333821614584
+        ],
+        [
+          0.2212799072265625,
+          0.5621333821614584
+        ],
+        [
+          0.217679931640625,
+          0.5563334147135417
+        ],
+        [
+          0.2090399169921875,
+          0.542933349609375
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4285,
+        4286,
+        4287,
+        4288,
+        4289,
+        4290,
+        4291,
+        4292,
+        4293,
+        4294,
+        4295,
+        4296,
+        4297,
+        4298,
+        4299,
+        4300,
+        4301,
+        4302,
+        4303,
+        4304,
+        4305,
+        4306,
+        4307,
+        4308,
+        4309,
+        4310,
+        4311,
+        4312,
+        4313,
+        4314,
+        4316,
+        4317,
+        4318,
+        4319,
+        4320,
+        4321,
+        4322,
+        4323,
+        4324
+      ],
+      "dashGaps": 7,
+      "observedLengthPdfPoints": 154.12145921201056,
+      "endpointLeadPdfPoints": [
+        15.479011866958745,
+        1.1563427557403712
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-2c065dfa9b3f",
+      "fromId": "det-e333de1a1fac2b",
+      "toId": "det-85b3ee4e6b4f91",
+      "points": [
+        [
+          0.4406398434379357,
+          0.4644525745537237
+        ],
+        [
+          0.41543994140625,
+          0.465533447265625
+        ],
+        [
+          0.402239990234375,
+          0.4673333740234375
+        ],
+        [
+          0.387119873046875,
+          0.47093343098958335
+        ],
+        [
+          0.380639892578125,
+          0.4735333251953125
+        ],
+        [
+          0.36743994140625,
+          0.48313334147135417
+        ],
+        [
+          0.364800048828125,
+          0.4867333984375
+        ],
+        [
+          0.36143994140625,
+          0.49453328450520834
+        ],
+        [
+          0.36047998046875,
+          0.5043332926432291
+        ],
+        [
+          0.362159912109375,
+          0.515533447265625
+        ],
+        [
+          0.365280029296875,
+          0.5235333251953125
+        ],
+        [
+          0.370079833984375,
+          0.5319333902994792
+        ],
+        [
+          0.383760009765625,
+          0.5483333333333333
+        ],
+        [
+          0.406320068359375,
+          0.5713334147135417
+        ],
+        [
+          0.419280029296875,
+          0.5897334798177083
+        ],
+        [
+          0.4250400390625,
+          0.6011334228515625
+        ],
+        [
+          0.431280029296875,
+          0.6167333984375
+        ],
+        [
+          0.436320068359375,
+          0.6335333251953125
+        ],
+        [
+          0.44063984346113877,
+          0.6542561149783933
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.440639892578125,
+          0.46433329264322915
+        ],
+        [
+          0.426719970703125,
+          0.46473347981770835
+        ],
+        [
+          0.41543994140625,
+          0.465533447265625
+        ],
+        [
+          0.402239990234375,
+          0.4673333740234375
+        ],
+        [
+          0.3950400390625,
+          0.46873331705729165
+        ],
+        [
+          0.387119873046875,
+          0.47093343098958335
+        ],
+        [
+          0.380639892578125,
+          0.4735333251953125
+        ],
+        [
+          0.377280029296875,
+          0.47533345540364585
+        ],
+        [
+          0.36743994140625,
+          0.48313334147135417
+        ],
+        [
+          0.364800048828125,
+          0.4867333984375
+        ],
+        [
+          0.3628798828125,
+          0.49073343912760414
+        ],
+        [
+          0.36143994140625,
+          0.49453328450520834
+        ],
+        [
+          0.360719970703125,
+          0.4985333251953125
+        ],
+        [
+          0.36047998046875,
+          0.5027333577473958
+        ],
+        [
+          0.36047998046875,
+          0.5043332926432291
+        ],
+        [
+          0.362159912109375,
+          0.515533447265625
+        ],
+        [
+          0.363599853515625,
+          0.5193332926432291
+        ],
+        [
+          0.365280029296875,
+          0.5235333251953125
+        ],
+        [
+          0.367679931640625,
+          0.5277333577473958
+        ],
+        [
+          0.370079833984375,
+          0.5319333902994792
+        ],
+        [
+          0.3729599609375,
+          0.5359334309895833
+        ],
+        [
+          0.3808798828125,
+          0.5451334635416667
+        ],
+        [
+          0.383760009765625,
+          0.5483333333333333
+        ],
+        [
+          0.38783984375,
+          0.5523333740234375
+        ],
+        [
+          0.392159912109375,
+          0.5563334147135417
+        ],
+        [
+          0.39647998046875,
+          0.5607334391276042
+        ],
+        [
+          0.398159912109375,
+          0.5623333740234375
+        ],
+        [
+          0.406320068359375,
+          0.5713334147135417
+        ],
+        [
+          0.410159912109375,
+          0.5763334147135417
+        ],
+        [
+          0.414719970703125,
+          0.5827333577473959
+        ],
+        [
+          0.419280029296875,
+          0.5897334798177083
+        ],
+        [
+          0.419760009765625,
+          0.5909334309895833
+        ],
+        [
+          0.4250400390625,
+          0.6011334228515625
+        ],
+        [
+          0.42743994140625,
+          0.6067333984375
+        ],
+        [
+          0.431280029296875,
+          0.6167333984375
+        ],
+        [
+          0.433199951171875,
+          0.6225333658854166
+        ],
+        [
+          0.436320068359375,
+          0.6335333251953125
+        ],
+        [
+          0.438,
+          0.6403334554036458
+        ],
+        [
+          0.440639892578125,
+          0.65413330078125
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4325,
+        4326,
+        4327,
+        4328,
+        4329,
+        4330,
+        4332,
+        4333,
+        4334,
+        4335,
+        4336,
+        4337,
+        4338,
+        4339,
+        4340,
+        4341,
+        4342,
+        4343,
+        4344,
+        4345,
+        4346,
+        4347,
+        4348,
+        4349,
+        4350,
+        4351,
+        4352,
+        4353,
+        4354,
+        4355,
+        4356
+      ],
+      "dashGaps": 7,
+      "observedLengthPdfPoints": 153.25155323993334,
+      "endpointLeadPdfPoints": [
+        0.07156915051425072,
+        0.07368852237832016
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-91da44e785e9",
+      "fromId": "det-8be1a42f9fb961",
+      "toId": "det-1a7d9cfac758a2",
+      "points": [
+        [
+          0.36572820294261693,
+          0.22097036476613188
+        ],
+        [
+          0.332159912109375,
+          0.21813334147135416
+        ],
+        [
+          0.318,
+          0.2211334228515625
+        ],
+        [
+          0.313199951171875,
+          0.22333333333333333
+        ],
+        [
+          0.310800048828125,
+          0.225533447265625
+        ],
+        [
+          0.306,
+          0.23573343912760417
+        ],
+        [
+          0.30647998046875,
+          0.24213338216145833
+        ],
+        [
+          0.310079833984375,
+          0.25193339029947914
+        ],
+        [
+          0.319679931640625,
+          0.2673333740234375
+        ],
+        [
+          0.3328798828125,
+          0.28273335774739583
+        ],
+        [
+          0.3448798828125,
+          0.29313334147135417
+        ],
+        [
+          0.357119873046875,
+          0.3013334147135417
+        ],
+        [
+          0.366719970703125,
+          0.30633341471354164
+        ],
+        [
+          0.382320068359375,
+          0.31273335774739586
+        ],
+        [
+          0.392159912109375,
+          0.31573343912760415
+        ],
+        [
+          0.41735986328125,
+          0.3211334228515625
+        ],
+        [
+          0.440639892578125,
+          0.3237333170572917
+        ],
+        [
+          0.4406398434380162,
+          0.325852529823007
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.332159912109375,
+          0.21813334147135416
+        ],
+        [
+          0.324239990234375,
+          0.21933329264322918
+        ],
+        [
+          0.318,
+          0.2211334228515625
+        ],
+        [
+          0.313199951171875,
+          0.22333333333333333
+        ],
+        [
+          0.310800048828125,
+          0.225533447265625
+        ],
+        [
+          0.306,
+          0.23573343912760417
+        ],
+        [
+          0.305760009765625,
+          0.23773335774739585
+        ],
+        [
+          0.30647998046875,
+          0.24213338216145833
+        ],
+        [
+          0.307919921875,
+          0.24693339029947917
+        ],
+        [
+          0.310079833984375,
+          0.25193339029947914
+        ],
+        [
+          0.3129599609375,
+          0.25693339029947915
+        ],
+        [
+          0.31943994140625,
+          0.26693339029947916
+        ],
+        [
+          0.319679931640625,
+          0.2673333740234375
+        ],
+        [
+          0.323760009765625,
+          0.27253336588541666
+        ],
+        [
+          0.328079833984375,
+          0.2777333577473958
+        ],
+        [
+          0.3328798828125,
+          0.28273335774739583
+        ],
+        [
+          0.335280029296875,
+          0.2851334635416667
+        ],
+        [
+          0.3448798828125,
+          0.29313334147135417
+        ],
+        [
+          0.350159912109375,
+          0.2969333902994792
+        ],
+        [
+          0.357119873046875,
+          0.3013334147135417
+        ],
+        [
+          0.364800048828125,
+          0.3053334554036458
+        ],
+        [
+          0.366719970703125,
+          0.30633341471354164
+        ],
+        [
+          0.378719970703125,
+          0.31133341471354165
+        ],
+        [
+          0.382320068359375,
+          0.31273335774739586
+        ],
+        [
+          0.392159912109375,
+          0.31573343912760415
+        ],
+        [
+          0.4029599609375,
+          0.3185333251953125
+        ],
+        [
+          0.404159912109375,
+          0.3187333170572917
+        ],
+        [
+          0.41735986328125,
+          0.3211334228515625
+        ],
+        [
+          0.427199951171875,
+          0.32253336588541665
+        ],
+        [
+          0.440639892578125,
+          0.3237333170572917
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4357,
+        4358,
+        4359,
+        4360,
+        4361,
+        4362,
+        4363,
+        4364,
+        4365,
+        4366,
+        4367,
+        4368,
+        4369,
+        4370,
+        4371,
+        4373,
+        4374,
+        4375,
+        4376,
+        4377,
+        4378,
+        4379,
+        4380,
+        4381
+      ],
+      "dashGaps": 5,
+      "observedLengthPdfPoints": 111.11505091113449,
+      "endpointLeadPdfPoints": [
+        16.870242137838996,
+        1.271527659666569
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-95fdf3de43bc",
+      "fromId": "det-4e6f814a210c50",
+      "toId": "det-85b3ee4e6b4f91",
+      "points": [
+        [
+          0.39166612121315075,
+          0.7588337560812882
+        ],
+        [
+          0.395280029296875,
+          0.7331333414713541
+        ],
+        [
+          0.399119873046875,
+          0.7173333740234376
+        ],
+        [
+          0.40535986328125,
+          0.7009334309895834
+        ],
+        [
+          0.41135986328125,
+          0.6889333089192708
+        ],
+        [
+          0.424079833984375,
+          0.6711334228515625
+        ],
+        [
+          0.42935986328125,
+          0.6647332763671875
+        ],
+        [
+          0.44063984346113877,
+          0.6542561149783933
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.395280029296875,
+          0.7331333414713541
+        ],
+        [
+          0.399119873046875,
+          0.7173333740234376
+        ],
+        [
+          0.401280029296875,
+          0.7117333984375
+        ],
+        [
+          0.40535986328125,
+          0.7009334309895834
+        ],
+        [
+          0.41135986328125,
+          0.6889333089192708
+        ],
+        [
+          0.4168798828125,
+          0.6807334391276042
+        ],
+        [
+          0.424079833984375,
+          0.6711334228515625
+        ],
+        [
+          0.42935986328125,
+          0.6647332763671875
+        ],
+        [
+          0.440639892578125,
+          0.65413330078125
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4382,
+        4383,
+        4384,
+        4385,
+        4386,
+        4387
+      ],
+      "dashGaps": 2,
+      "observedLengthPdfPoints": 53.389560565110436,
+      "endpointLeadPdfPoints": [
+        15.525757788704095,
+        0.07368852237832016
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-8a458fad3577",
+      "fromId": "det-0cafccaec97c89",
+      "toId": "det-fb550468726439",
+      "points": [
+        [
+          0.20903996643715572,
+          0.5448605875351685
+        ],
+        [
+          0.2090399169921875,
+          0.542933349609375
+        ],
+        [
+          0.21647998046875,
+          0.5315334065755208
+        ],
+        [
+          0.22343994140625,
+          0.5139333089192708
+        ],
+        [
+          0.2253599853515625,
+          0.5077333577473958
+        ],
+        [
+          0.2272799072265625,
+          0.4917333984375
+        ],
+        [
+          0.2270399169921875,
+          0.480533447265625
+        ],
+        [
+          0.22247998046875,
+          0.4585333251953125
+        ],
+        [
+          0.21647998046875,
+          0.442933349609375
+        ],
+        [
+          0.20903996618728365,
+          0.42902258103436147
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.2090399169921875,
+          0.542933349609375
+        ],
+        [
+          0.21647998046875,
+          0.5315334065755208
+        ],
+        [
+          0.2195999755859375,
+          0.5247334798177083
+        ],
+        [
+          0.22343994140625,
+          0.5139333089192708
+        ],
+        [
+          0.2253599853515625,
+          0.5077333577473958
+        ],
+        [
+          0.2272799072265625,
+          0.4953334554036458
+        ],
+        [
+          0.2272799072265625,
+          0.4917333984375
+        ],
+        [
+          0.2270399169921875,
+          0.480533447265625
+        ],
+        [
+          0.2253599853515625,
+          0.46973347981770835
+        ],
+        [
+          0.22247998046875,
+          0.4585333251953125
+        ],
+        [
+          0.21839990234375,
+          0.4477333577473958
+        ],
+        [
+          0.21647998046875,
+          0.442933349609375
+        ],
+        [
+          0.2090399169921875,
+          0.42913330078125
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4388,
+        4389,
+        4390,
+        4391,
+        4392,
+        4393,
+        4394,
+        4395,
+        4396
+      ],
+      "dashGaps": 3,
+      "observedLengthPdfPoints": 71.45069552595957,
+      "endpointLeadPdfPoints": [
+        1.1563427557403712,
+        0.06643185268694154
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-22b9afd096ef",
+      "fromId": "det-fb550468726439",
+      "toId": "det-9d4aee5e90ed3d",
+      "points": [
+        [
+          0.20903996618728365,
+          0.42902258103436147
+        ],
+        [
+          0.216,
+          0.4157334391276042
+        ],
+        [
+          0.2251199951171875,
+          0.39033345540364583
+        ],
+        [
+          0.2272799072265625,
+          0.37833333333333335
+        ],
+        [
+          0.228,
+          0.3661334228515625
+        ],
+        [
+          0.2272799072265625,
+          0.355533447265625
+        ],
+        [
+          0.2251199951171875,
+          0.34473347981770835
+        ],
+        [
+          0.2205599365234375,
+          0.33313334147135415
+        ],
+        [
+          0.216,
+          0.32473347981770834
+        ],
+        [
+          0.2090399169921875,
+          0.31513346354166666
+        ],
+        [
+          0.20903996613409753,
+          0.3132145168315172
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.2090399169921875,
+          0.42913330078125
+        ],
+        [
+          0.216,
+          0.4157334391276042
+        ],
+        [
+          0.218159912109375,
+          0.4101334635416667
+        ],
+        [
+          0.222239990234375,
+          0.39933329264322914
+        ],
+        [
+          0.2251199951171875,
+          0.39033345540364583
+        ],
+        [
+          0.2272799072265625,
+          0.37833333333333335
+        ],
+        [
+          0.2272799072265625,
+          0.3773333740234375
+        ],
+        [
+          0.228,
+          0.3661334228515625
+        ],
+        [
+          0.2272799072265625,
+          0.355533447265625
+        ],
+        [
+          0.2251199951171875,
+          0.34473347981770835
+        ],
+        [
+          0.2246400146484375,
+          0.3439333089192708
+        ],
+        [
+          0.2205599365234375,
+          0.33313334147135415
+        ],
+        [
+          0.216,
+          0.32473347981770834
+        ],
+        [
+          0.2090399169921875,
+          0.31513346354166666
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4397,
+        4398,
+        4399,
+        4400,
+        4401,
+        4402,
+        4403,
+        4404,
+        4405,
+        4406
+      ],
+      "dashGaps": 3,
+      "observedLengthPdfPoints": 71.8135782054896,
+      "endpointLeadPdfPoints": [
+        0.06643185268694154,
+        1.1513680263518793
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "run-5c92e90481cf",
+      "fromId": "det-1b8b9d6a28d53c",
+      "toId": "det-9de64518a5c311",
+      "points": [
+        [
+          0.435,
+          0.5104166666666666
+        ],
+        [
+          0.434639892578125,
+          0.51913330078125
+        ],
+        [
+          0.438,
+          0.5231333414713542
+        ],
+        [
+          0.443760009765625,
+          0.5273333740234375
+        ],
+        [
+          0.448320068359375,
+          0.5273333740234375
+        ],
+        [
+          0.450239990234375,
+          0.5261334228515625
+        ],
+        [
+          0.462239990234375,
+          0.5113334147135417
+        ],
+        [
+          0.466320068359375,
+          0.50913330078125
+        ],
+        [
+          0.468719970703125,
+          0.5089333089192708
+        ],
+        [
+          0.47447998046875,
+          0.5109334309895833
+        ],
+        [
+          0.47783984375,
+          0.5133333333333333
+        ],
+        [
+          0.47829777926436645,
+          0.5246534935061007
+        ]
+      ],
+      "observedPoints": [
+        [
+          0.434639892578125,
+          0.51913330078125
+        ],
+        [
+          0.438,
+          0.5231333414713542
+        ],
+        [
+          0.441119873046875,
+          0.5257334391276042
+        ],
+        [
+          0.443760009765625,
+          0.5273333740234375
+        ],
+        [
+          0.446159912109375,
+          0.5277333577473958
+        ],
+        [
+          0.448320068359375,
+          0.5273333740234375
+        ],
+        [
+          0.450239990234375,
+          0.5261334228515625
+        ],
+        [
+          0.451919921875,
+          0.5245332845052083
+        ],
+        [
+          0.453599853515625,
+          0.5223333740234375
+        ],
+        [
+          0.455280029296875,
+          0.5199334716796875
+        ],
+        [
+          0.4569599609375,
+          0.5175333658854167
+        ],
+        [
+          0.458639892578125,
+          0.5153334554036458
+        ],
+        [
+          0.460320068359375,
+          0.5131333414713541
+        ],
+        [
+          0.462239990234375,
+          0.5113334147135417
+        ],
+        [
+          0.464159912109375,
+          0.5099334716796875
+        ],
+        [
+          0.466320068359375,
+          0.50913330078125
+        ],
+        [
+          0.468719970703125,
+          0.5089333089192708
+        ],
+        [
+          0.47135986328125,
+          0.5095332845052083
+        ],
+        [
+          0.47447998046875,
+          0.5109334309895833
+        ],
+        [
+          0.47783984375,
+          0.5133333333333333
+        ]
+      ],
+      "source": "pdf-vector",
+      "sourceStrokeIndices": [
+        4407,
+        4408,
+        4409,
+        4410,
+        4411,
+        4412,
+        4413,
+        4414,
+        4415,
+        4416,
+        4417,
+        4418,
+        4419,
+        4420,
+        4421,
+        4422,
+        4423,
+        4424,
+        4425
+      ],
+      "dashGaps": 0,
+      "observedLengthPdfPoints": 30.062804359306615,
+      "endpointLeadPdfPoints": [
+        5.233078925673569,
+        6.795954363824737
+      ],
+      "cableType": "auto",
+      "included": true,
+      "reviewed": false
+    }
+  ],
+  "wireDiagnostics": {
+    "method": "consecutive plotted strokes / repeated dash gaps / device endpoints",
+    "tracedRuns": 17,
+    "unattachedStrokeChains": 194,
+    "unattachedDashedChains": [
+      {
+        "start": [
+          1133.8800048828125,
+          192.5999755859375
+        ],
+        "end": [
+          1133.8800048828125,
+          173.8800048828125
+        ],
+        "gaps": 1,
+        "strokes": [
+          281,
+          282
+        ]
+      },
+      {
+        "start": [
+          1133.8800048828125,
+          192.5999755859375
+        ],
+        "end": [
+          1133.8800048828125,
+          173.8800048828125
+        ],
+        "gaps": 1,
+        "strokes": [
+          334,
+          335
+        ]
+      },
+      {
+        "start": [
+          1135.3199462890625,
+          194.0400390625
+        ],
+        "end": [
+          1133.8800048828125,
+          185.8800048828125
+        ],
+        "gaps": 1,
+        "strokes": [
+          344,
+          345,
+          346,
+          347,
+          348
+        ]
+      },
+      {
+        "start": [
+          1120.3199462890625,
+          402.9600830078125
+        ],
+        "end": [
+          1120.3199462890625,
+          413.1600341796875
+        ],
+        "gaps": 1,
+        "strokes": [
+          3206,
+          3207,
+          3208,
+          3209,
+          3210,
+          3211,
+          3212,
+          3213,
+          3214,
+          3215,
+          3216,
+          3217,
+          3218,
+          3219,
+          3220
+        ]
+      },
+      {
+        "start": [
+          1114.679931640625,
+          408.5999755859375
+        ],
+        "end": [
+          1125.9599609375,
+          408.5999755859375
+        ],
+        "gaps": 1,
+        "strokes": [
+          3222,
+          3223
+        ]
+      },
+      {
+        "start": [
+          1120.3199462890625,
+          402.9600830078125
+        ],
+        "end": [
+          1120.3199462890625,
+          413.1600341796875
+        ],
+        "gaps": 1,
+        "strokes": [
+          3224,
+          3225,
+          3226,
+          3227,
+          3228,
+          3229,
+          3230,
+          3231,
+          3232,
+          3233,
+          3234,
+          3235,
+          3236,
+          3237,
+          3238,
+          3239,
+          3240,
+          3241,
+          3242,
+          3243,
+          3244,
+          3245,
+          3246,
+          3247,
+          3248,
+          3249,
+          3250,
+          3251,
+          3252
+        ]
+      },
+      {
+        "start": [
+          1114.679931640625,
+          408.5999755859375
+        ],
+        "end": [
+          1125.9599609375,
+          408.5999755859375
+        ],
+        "gaps": 1,
+        "strokes": [
+          3254,
+          3255
+        ]
+      },
+      {
+        "start": [
+          1004.5199584960938,
+          393.0
+        ],
+        "end": [
+          1004.5199584960938,
+          382.9200439453125
+        ],
+        "gaps": 1,
+        "strokes": [
+          3274,
+          3275,
+          3276,
+          3277,
+          3278,
+          3279,
+          3280,
+          3281,
+          3282,
+          3283,
+          3284,
+          3285,
+          3286,
+          3287,
+          3288
+        ]
+      },
+      {
+        "start": [
+          1010.1599731445312,
+          387.47998046875
+        ],
+        "end": [
+          999.0,
+          387.47998046875
+        ],
+        "gaps": 1,
+        "strokes": [
+          3290,
+          3291
+        ]
+      },
+      {
+        "start": [
+          1004.5199584960938,
+          393.0
+        ],
+        "end": [
+          1004.5199584960938,
+          382.9200439453125
+        ],
+        "gaps": 1,
+        "strokes": [
+          3292,
+          3293,
+          3294,
+          3295,
+          3296,
+          3297,
+          3298,
+          3299,
+          3300,
+          3301,
+          3302,
+          3303,
+          3304,
+          3305,
+          3306,
+          3307,
+          3308,
+          3309,
+          3310,
+          3311,
+          3312,
+          3313,
+          3314,
+          3315,
+          3316,
+          3317,
+          3318,
+          3319,
+          3320
+        ]
+      },
+      {
+        "start": [
+          1010.1599731445312,
+          387.47998046875
+        ],
+        "end": [
+          999.0,
+          387.47998046875
+        ],
+        "gaps": 1,
+        "strokes": [
+          3322,
+          3323
+        ]
+      },
+      {
+        "start": [
+          1259.4000244140625,
+          302.0400390625
+        ],
+        "end": [
+          1259.4000244140625,
+          291.840087890625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3342,
+          3343,
+          3344,
+          3345,
+          3346,
+          3347,
+          3348,
+          3349,
+          3350,
+          3351,
+          3352,
+          3353,
+          3354,
+          3355,
+          3356
+        ]
+      },
+      {
+        "start": [
+          1265.0399169921875,
+          296.4000244140625
+        ],
+        "end": [
+          1253.760009765625,
+          296.4000244140625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3358,
+          3359
+        ]
+      },
+      {
+        "start": [
+          1259.4000244140625,
+          302.0400390625
+        ],
+        "end": [
+          1259.4000244140625,
+          291.840087890625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3360,
+          3361,
+          3362,
+          3363,
+          3364,
+          3365,
+          3366,
+          3367,
+          3368,
+          3369,
+          3370,
+          3371,
+          3372,
+          3373,
+          3374,
+          3375,
+          3376,
+          3377,
+          3378,
+          3379,
+          3380,
+          3381,
+          3382,
+          3383,
+          3384,
+          3385,
+          3386,
+          3387,
+          3388
+        ]
+      },
+      {
+        "start": [
+          1265.0399169921875,
+          296.4000244140625
+        ],
+        "end": [
+          1253.760009765625,
+          296.4000244140625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3390,
+          3391
+        ]
+      },
+      {
+        "start": [
+          1089.0,
+          609.239990234375
+        ],
+        "end": [
+          1078.7999267578125,
+          609.239990234375
+        ],
+        "gaps": 1,
+        "strokes": [
+          3410,
+          3411,
+          3412,
+          3413,
+          3414,
+          3415,
+          3416,
+          3417,
+          3418,
+          3419,
+          3420,
+          3421,
+          3422,
+          3423,
+          3424
+        ]
+      },
+      {
+        "start": [
+          1083.3599853515625,
+          614.8800048828125
+        ],
+        "end": [
+          1083.3599853515625,
+          601.800048828125
+        ],
+        "gaps": 1,
+        "strokes": [
+          3427,
+          3428
+        ]
+      },
+      {
+        "start": [
+          1271.0399169921875,
+          506.280029296875
+        ],
+        "end": [
+          1281.1199951171875,
+          506.280029296875
+        ],
+        "gaps": 1,
+        "strokes": [
+          3446,
+          3447,
+          3448,
+          3449,
+          3450,
+          3451,
+          3452,
+          3453,
+          3454,
+          3455,
+          3456,
+          3457,
+          3458,
+          3459,
+          3460
+        ]
+      },
+      {
+        "start": [
+          1276.679931640625,
+          511.800048828125
+        ],
+        "end": [
+          1276.679931640625,
+          500.6400146484375
+        ],
+        "gaps": 1,
+        "strokes": [
+          3462,
+          3463
+        ]
+      },
+      {
+        "start": [
+          1335.47998046875,
+          297.47998046875
+        ],
+        "end": [
+          1335.47998046875,
+          287.4000244140625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3567,
+          3568,
+          3569,
+          3570,
+          3571,
+          3572,
+          3573,
+          3574,
+          3575,
+          3576,
+          3577,
+          3578,
+          3579,
+          3580,
+          3581
+        ]
+      },
+      {
+        "start": [
+          1342.919921875,
+          291.840087890625
+        ],
+        "end": [
+          1329.8399658203125,
+          291.840087890625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3584,
+          3585
+        ]
+      },
+      {
+        "start": [
+          1120.3199462890625,
+          516.9600830078125
+        ],
+        "end": [
+          1120.3199462890625,
+          527.0400390625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3586,
+          3587,
+          3588,
+          3589,
+          3590,
+          3591,
+          3592,
+          3593,
+          3594,
+          3595,
+          3596,
+          3597,
+          3598,
+          3599,
+          3600
+        ]
+      },
+      {
+        "start": [
+          1114.679931640625,
+          522.47998046875
+        ],
+        "end": [
+          1125.9599609375,
+          522.47998046875
+        ],
+        "gaps": 1,
+        "strokes": [
+          3602,
+          3603
+        ]
+      },
+      {
+        "start": [
+          1120.3199462890625,
+          516.9600830078125
+        ],
+        "end": [
+          1120.3199462890625,
+          527.0400390625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3604,
+          3605,
+          3606,
+          3607,
+          3608,
+          3609,
+          3610,
+          3611,
+          3612,
+          3613,
+          3614,
+          3615,
+          3616,
+          3617,
+          3618,
+          3619,
+          3620,
+          3621,
+          3622,
+          3623,
+          3624,
+          3625,
+          3626,
+          3627,
+          3628,
+          3629,
+          3630,
+          3631,
+          3632
+        ]
+      },
+      {
+        "start": [
+          1114.679931640625,
+          522.47998046875
+        ],
+        "end": [
+          1125.9599609375,
+          522.47998046875
+        ],
+        "gaps": 1,
+        "strokes": [
+          3634,
+          3635
+        ]
+      },
+      {
+        "start": [
+          1004.5199584960938,
+          323.52001953125
+        ],
+        "end": [
+          1004.5199584960938,
+          313.4400634765625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3654,
+          3655,
+          3656,
+          3657,
+          3658,
+          3659,
+          3660,
+          3661,
+          3662,
+          3663,
+          3664,
+          3665,
+          3666,
+          3667,
+          3668
+        ]
+      },
+      {
+        "start": [
+          1010.1599731445312,
+          317.8800048828125
+        ],
+        "end": [
+          999.0,
+          317.8800048828125
+        ],
+        "gaps": 1,
+        "strokes": [
+          3670,
+          3671
+        ]
+      },
+      {
+        "start": [
+          1004.5199584960938,
+          323.52001953125
+        ],
+        "end": [
+          1004.5199584960938,
+          313.4400634765625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3672,
+          3673,
+          3674,
+          3675,
+          3676,
+          3677,
+          3678,
+          3679,
+          3680,
+          3681,
+          3682,
+          3683,
+          3684,
+          3685,
+          3686,
+          3687,
+          3688,
+          3689,
+          3690,
+          3691,
+          3692,
+          3693,
+          3694,
+          3695,
+          3696,
+          3697,
+          3698,
+          3699,
+          3700
+        ]
+      },
+      {
+        "start": [
+          1010.1599731445312,
+          317.8800048828125
+        ],
+        "end": [
+          999.0,
+          317.8800048828125
+        ],
+        "gaps": 1,
+        "strokes": [
+          3702,
+          3703
+        ]
+      },
+      {
+        "start": [
+          1004.5199584960938,
+          462.5999755859375
+        ],
+        "end": [
+          1004.5199584960938,
+          452.4000244140625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3722,
+          3723,
+          3724,
+          3725,
+          3726,
+          3727,
+          3728,
+          3729,
+          3730,
+          3731,
+          3732,
+          3733,
+          3734,
+          3735,
+          3736
+        ]
+      },
+      {
+        "start": [
+          1010.1599731445312,
+          456.9600830078125
+        ],
+        "end": [
+          999.0,
+          456.9600830078125
+        ],
+        "gaps": 1,
+        "strokes": [
+          3738,
+          3739
+        ]
+      },
+      {
+        "start": [
+          1004.5199584960938,
+          462.5999755859375
+        ],
+        "end": [
+          1004.5199584960938,
+          452.4000244140625
+        ],
+        "gaps": 1,
+        "strokes": [
+          3740,
+          3741,
+          3742,
+          3743,
+          3744,
+          3745,
+          3746,
+          3747,
+          3748,
+          3749,
+          3750,
+          3751,
+          3752,
+          3753,
+          3754,
+          3755,
+          3756,
+          3757,
+          3758,
+          3759,
+          3760,
+          3761,
+          3762,
+          3763,
+          3764,
+          3765,
+          3766,
+          3767,
+          3768
+        ]
+      },
+      {
+        "start": [
+          1010.1599731445312,
+          456.9600830078125
+        ],
+        "end": [
+          999.0,
+          456.9600830078125
+        ],
+        "gaps": 1,
+        "strokes": [
+          3770,
+          3771
+        ]
+      },
+      {
+        "start": [
+          1117.3199462890625,
+          441.3599853515625
+        ],
+        "end": [
+          1117.3199462890625,
+          431.280029296875
+        ],
+        "gaps": 1,
+        "strokes": [
+          3988,
+          3989,
+          3990,
+          3991,
+          3992,
+          3993,
+          3994,
+          3995,
+          3996,
+          3997,
+          3998,
+          3999,
+          4000,
+          4001,
+          4002
+        ]
+      },
+      {
+        "start": [
+          1122.9599609375,
+          435.840087890625
+        ],
+        "end": [
+          1111.7999267578125,
+          435.840087890625
+        ],
+        "gaps": 1,
+        "strokes": [
+          4004,
+          4005
+        ]
+      },
+      {
+        "start": [
+          1120.3199462890625,
+          319.800048828125
+        ],
+        "end": [
+          1120.3199462890625,
+          330.0
+        ],
+        "gaps": 1,
+        "strokes": [
+          4036,
+          4037,
+          4038,
+          4039,
+          4040,
+          4041,
+          4042,
+          4043,
+          4044,
+          4045,
+          4046,
+          4047,
+          4048,
+          4049,
+          4050
+        ]
+      },
+      {
+        "start": [
+          1114.679931640625,
+          325.4400634765625
+        ],
+        "end": [
+          1125.9599609375,
+          325.4400634765625
+        ],
+        "gaps": 1,
+        "strokes": [
+          4052,
+          4053
+        ]
+      },
+      {
+        "start": [
+          1120.3199462890625,
+          319.800048828125
+        ],
+        "end": [
+          1120.3199462890625,
+          330.0
+        ],
+        "gaps": 1,
+        "strokes": [
+          4054,
+          4055,
+          4056,
+          4057,
+          4058,
+          4059,
+          4060,
+          4061,
+          4062,
+          4063,
+          4064,
+          4065,
+          4066,
+          4067,
+          4068,
+          4069,
+          4070,
+          4071,
+          4072,
+          4073,
+          4074,
+          4075,
+          4076,
+          4077,
+          4078,
+          4079,
+          4080,
+          4081,
+          4082
+        ]
+      },
+      {
+        "start": [
+          1114.679931640625,
+          325.4400634765625
+        ],
+        "end": [
+          1125.9599609375,
+          325.4400634765625
+        ],
+        "gaps": 1,
+        "strokes": [
+          4084,
+          4085
+        ]
+      }
+    ],
+    "coverage": "Drawn control connections only; no undrawn feeds or receptacle circuits are fabricated."
+  }
+}

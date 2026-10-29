@@ -15,8 +15,30 @@ export const TYPES = {
   'receptacle-gfi':    { label: 'Receptacle (GFI)',   color: '#10b981', group: 'receptacle' },
   'receptacle-240':    { label: 'Receptacle (240 V)', color: '#059669', group: 'receptacle' },
   'receptacle-wp':     { label: 'Receptacle (WP)',    color: '#047857', group: 'receptacle' },
-  'smoke-detector':    { label: 'Smoke / CO Detector',color: '#f87171', group: 'detector' },
+  'smoke-detector':    { label: 'Smoke detector',color: '#f87171', group: 'detector' },
   'junction-box':      { label: 'Junction box',       color: '#94a3b8', group: 'other' },
+  'smoke-co-detector': { label: 'Smoke / CO combined', color: '#e11d48', group: 'detector' },
+  'co-detector':       { label: 'CO detector', color: '#be123c', group: 'detector' },
+  'iaq-fan':           { label: 'Indoor air quality fan', color: '#ea580c', group: 'fan' },
+  'fan-light':         { label: 'Fan / light combined', color: '#b45309', group: 'fan' },
+  'switch-fan':        { label: 'Switch (fan)', color: '#0284c7', group: 'switch' },
+  'switch-3way-dimmer':{ label: 'Switch (3-way dimmer)', color: '#4f46e5', group: 'switch' },
+  'switch-astro':      { label: 'Switch (time / motion)', color: '#7c3aed', group: 'switch' },
+  'receptacle-afi':    { label: 'Receptacle (AFI)', color: '#059669', group: 'receptacle' },
+  'receptacle-wp-240': { label: 'Receptacle (WP · 240 V)', color: '#047857', group: 'receptacle' },
+  'receptacle-quad':   { label: 'Receptacle (quad)', color: '#065f46', group: 'receptacle' },
+  'receptacle-floor':  { label: 'Receptacle (floor)', color: '#0f766e', group: 'receptacle' },
+  'light-vaporproof':  { label: 'Light (vapor proof)', color: '#ca8a04', group: 'light' },
+  'light-surface':     { label: 'Light (surface)', color: '#a16207', group: 'light' },
+  'light-generic':     { label: 'Light (subtype unconfirmed)', color: '#a16207', group: 'light' },
+  'light-service':     { label: 'Light (attic / service)', color: '#a16207', group: 'light' },
+  'receptacle-halfhot':{ label: 'Receptacle (half hot)', color: '#065f46', group: 'receptacle' },
+  'receptacle-fc':     { label: 'Receptacle (fan coil)', color: '#0f766e', group: 'receptacle' },
+  'receptacle-mw':     { label: 'Receptacle (microwave)', color: '#0f766e', group: 'receptacle' },
+  'receptacle-dw':     { label: 'Receptacle (dishwasher)', color: '#0f766e', group: 'receptacle' },
+  'receptacle-hood':   { label: 'Receptacle (range hood)', color: '#0f766e', group: 'receptacle' },
+  'panelboard':        { label: 'Panelboard', color: '#475569', group: 'other' },
+  'other':             { label: 'Unclassified — review', color: '#64748b', group: 'other' },
 };
 
 export const TYPE_GROUPS = {
@@ -26,6 +48,7 @@ export const TYPE_GROUPS = {
   receptacle: 'Receptacles',
   detector: 'Detectors',
   other: 'Other',
+  custom: 'Custom',
 };
 
 export const DEFAULT_ROOMS = [

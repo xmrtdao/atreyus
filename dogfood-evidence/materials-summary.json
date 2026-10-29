@@ -1,0 +1,829 @@
+[
+  {
+    "sheet": 1,
+    "devices": 56,
+    "boxes": 39,
+    "runs": 17,
+    "total": 1649.95,
+    "gangs": [
+      {
+        "gangs": 3,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            1096,
+            585
+          ],
+          [
+            "switch-3way-dimmer",
+            1087,
+            585
+          ],
+          [
+            "switch-astro",
+            1079,
+            585
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch",
+            1139,
+            445
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-fan",
+            1208,
+            485
+          ],
+          [
+            "switch-dimmer",
+            1208,
+            493
+          ]
+        ]
+      },
+      {
+        "gangs": 3,
+        "members": [
+          [
+            "switch-dimmer",
+            1208,
+            299
+          ],
+          [
+            "switch-sensor",
+            1208,
+            287
+          ],
+          [
+            "switch-fan",
+            1208,
+            277
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch-fan",
+            975,
+            390
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            1083,
+            263
+          ],
+          [
+            "switch-3way-dimmer",
+            1083,
+            252
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch",
+            974,
+            355
+          ]
+        ]
+      }
+    ],
+    "cable": [
+      {
+        "id": "cable:12/2 NM-B",
+        "priceKey": "12/2 NM-B",
+        "category": "cable",
+        "label": "12/2 NM-B",
+        "quantity": 43,
+        "unit": "ft",
+        "sourceIds": [
+          "run-f658ec931cad",
+          "run-97359b51fd17",
+          "run-ae11f7a6fae5",
+          "run-c03e960418b6",
+          "run-f0cdd6fa25c2"
+        ],
+        "note": "",
+        "unitPrice": 0.75,
+        "total": 32.25
+      },
+      {
+        "id": "cable:14/2 NM-B",
+        "priceKey": "14/2 NM-B",
+        "category": "cable",
+        "label": "14/2 NM-B",
+        "quantity": 39,
+        "unit": "ft",
+        "sourceIds": [
+          "run-40e2e68464fd",
+          "run-bfc00920b4f5",
+          "run-5f694703abe9",
+          "run-5c92e90481cf"
+        ],
+        "note": "",
+        "unitPrice": 0.55,
+        "total": 21.45
+      },
+      {
+        "id": "cable:14/3 NM-B",
+        "priceKey": "14/3 NM-B",
+        "category": "cable",
+        "label": "14/3 NM-B",
+        "quantity": 75,
+        "unit": "ft",
+        "sourceIds": [
+          "run-bb8eee7ae28b",
+          "run-018a5fdb40a8",
+          "run-a181e5b60617",
+          "run-2c065dfa9b3f",
+          "run-91da44e785e9",
+          "run-95fdf3de43bc",
+          "run-8a458fad3577",
+          "run-22b9afd096ef"
+        ],
+        "note": "",
+        "unitPrice": 0.85,
+        "total": 63.75
+      }
+    ],
+    "unpriced": 0,
+    "unresolvedRuns": 0
+  },
+  {
+    "sheet": 2,
+    "devices": 67,
+    "boxes": 46,
+    "runs": 20,
+    "total": 1760.4,
+    "gangs": [
+      {
+        "gangs": 3,
+        "members": [
+          [
+            "switch-sensor",
+            904,
+            341
+          ],
+          [
+            "switch-fan",
+            893,
+            341
+          ],
+          [
+            "switch-dimmer",
+            885,
+            340
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-fan",
+            561,
+            313
+          ],
+          [
+            "switch-dimmer",
+            561,
+            305
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch",
+            938,
+            311
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-dimmer",
+            1034,
+            330
+          ],
+          [
+            "switch-fan",
+            1034,
+            338
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            733,
+            418
+          ],
+          [
+            "switch-astro",
+            743,
+            418
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch-fan",
+            694,
+            200
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            904,
+            257
+          ],
+          [
+            "switch-3way-dimmer",
+            904,
+            247
+          ]
+        ]
+      }
+    ],
+    "cable": [
+      {
+        "id": "cable:12/2 NM-B",
+        "priceKey": "12/2 NM-B",
+        "category": "cable",
+        "label": "12/2 NM-B",
+        "quantity": 59,
+        "unit": "ft",
+        "sourceIds": [
+          "run-4caf29d09621",
+          "run-1d04f8326cdd",
+          "run-a6cd4a763d46",
+          "run-57808d1c668c",
+          "run-21bec3e30e16",
+          "run-aae967fbd941"
+        ],
+        "note": "",
+        "unitPrice": 0.75,
+        "total": 44.25
+      },
+      {
+        "id": "cable:14/2 NM-B",
+        "priceKey": "14/2 NM-B",
+        "category": "cable",
+        "label": "14/2 NM-B",
+        "quantity": 61,
+        "unit": "ft",
+        "sourceIds": [
+          "run-3a6f71aab5b7",
+          "run-1287aa8a2ca6",
+          "run-8bb1dce96732",
+          "run-7eb59b444b12",
+          "run-9f535783aff4",
+          "run-4d10e89c2c9f",
+          "run-2214a98e0e44"
+        ],
+        "note": "",
+        "unitPrice": 0.55,
+        "total": 33.55
+      },
+      {
+        "id": "cable:14/3 NM-B",
+        "priceKey": "14/3 NM-B",
+        "category": "cable",
+        "label": "14/3 NM-B",
+        "quantity": 56,
+        "unit": "ft",
+        "sourceIds": [
+          "run-90dd0a62214e",
+          "run-acba19992479",
+          "run-c04557daaeec",
+          "run-05eb33e590bc",
+          "run-1cc46dbb6e53",
+          "run-df94cfd0b412",
+          "run-66517fc48fbd"
+        ],
+        "note": "",
+        "unitPrice": 0.85,
+        "total": 47.6
+      }
+    ],
+    "unpriced": 0,
+    "unresolvedRuns": 0
+  },
+  {
+    "sheet": 3,
+    "devices": 83,
+    "boxes": 56,
+    "runs": 26,
+    "total": 2370,
+    "gangs": [
+      {
+        "gangs": 3,
+        "members": [
+          [
+            "switch-fan",
+            1056,
+            352
+          ],
+          [
+            "switch-sensor",
+            1056,
+            362
+          ],
+          [
+            "switch-dimmer",
+            1056,
+            375
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            1093,
+            231
+          ]
+        ]
+      },
+      {
+        "gangs": 3,
+        "members": [
+          [
+            "switch-sensor",
+            1275,
+            301
+          ],
+          [
+            "switch-fan",
+            1285,
+            301
+          ],
+          [
+            "switch-dimmer",
+            1296,
+            301
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch",
+            1109,
+            373
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch-fan",
+            895,
+            428
+          ]
+        ]
+      },
+      {
+        "gangs": 3,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            1151,
+            466
+          ],
+          [
+            "switch-3way-dimmer",
+            1160,
+            466
+          ],
+          [
+            "switch-3way-dimmer",
+            1142,
+            466
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            1076,
+            649
+          ],
+          [
+            "switch-astro",
+            1087,
+            649
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-fan",
+            1056,
+            219
+          ],
+          [
+            "switch-dimmer",
+            1056,
+            227
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-dimmer",
+            1168,
+            222
+          ],
+          [
+            "switch-fan",
+            1168,
+            212
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch",
+            895,
+            538
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            928,
+            586
+          ]
+        ]
+      }
+    ],
+    "cable": [
+      {
+        "id": "cable:12/2 NM-B",
+        "priceKey": "12/2 NM-B",
+        "category": "cable",
+        "label": "12/2 NM-B",
+        "quantity": 81,
+        "unit": "ft",
+        "sourceIds": [
+          "run-dd266605c74f",
+          "run-7b49a603bf50",
+          "run-6279d580cf5d",
+          "run-f62a283c3f93",
+          "run-57e6342df0b5",
+          "run-c685900914c0",
+          "run-b9de49bbd50f",
+          "run-47317fc86d59"
+        ],
+        "note": "",
+        "unitPrice": 0.75,
+        "total": 60.75
+      },
+      {
+        "id": "cable:14/2 NM-B",
+        "priceKey": "14/2 NM-B",
+        "category": "cable",
+        "label": "14/2 NM-B",
+        "quantity": 85,
+        "unit": "ft",
+        "sourceIds": [
+          "run-57bcf31aef47",
+          "run-61a3681f4a7b",
+          "run-3795070815e2",
+          "run-9030df681c22",
+          "run-003dd9aca3b7",
+          "run-e97f2e4bf6ae",
+          "run-997bd88ad047"
+        ],
+        "note": "",
+        "unitPrice": 0.55,
+        "total": 46.75
+      },
+      {
+        "id": "cable:14/3 NM-B",
+        "priceKey": "14/3 NM-B",
+        "category": "cable",
+        "label": "14/3 NM-B",
+        "quantity": 120,
+        "unit": "ft",
+        "sourceIds": [
+          "run-c71d2af48e27",
+          "run-ffff1bca3566",
+          "run-20ae1fa636c7",
+          "run-8cfbb1c3af94",
+          "run-9c34cd29d992",
+          "run-733ff0a83bd2",
+          "run-5026654a3969",
+          "run-0645192aec80",
+          "run-c58d24ac7d9b",
+          "run-87562a0a2dec",
+          "run-f6547dcac75d"
+        ],
+        "note": "",
+        "unitPrice": 0.85,
+        "total": 102
+      }
+    ],
+    "unpriced": 0,
+    "unresolvedRuns": 0
+  },
+  {
+    "sheet": 4,
+    "devices": 98,
+    "boxes": 65,
+    "runs": 31,
+    "total": 2575.6,
+    "gangs": [
+      {
+        "gangs": 3,
+        "members": [
+          [
+            "switch-fan",
+            1538,
+            278
+          ],
+          [
+            "switch-sensor",
+            1526,
+            278
+          ],
+          [
+            "switch-dimmer",
+            1516,
+            278
+          ]
+        ]
+      },
+      {
+        "gangs": 3,
+        "members": [
+          [
+            "switch-fan",
+            1488,
+            530
+          ],
+          [
+            "switch-dimmer",
+            1488,
+            540
+          ],
+          [
+            "switch-sensor",
+            1488,
+            519
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            1146,
+            361
+          ],
+          [
+            "switch-astro",
+            1134,
+            361
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            1660,
+            334
+          ]
+        ]
+      },
+      {
+        "gangs": 3,
+        "members": [
+          [
+            "switch-3way-dimmer",
+            1479,
+            299
+          ],
+          [
+            "switch-3way-dimmer",
+            1469,
+            299
+          ],
+          [
+            "switch-dimmer",
+            1458,
+            299
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-dimmer",
+            1672,
+            368
+          ],
+          [
+            "switch-fan",
+            1681,
+            368
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch",
+            1419,
+            127
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-fan",
+            1292,
+            384
+          ],
+          [
+            "switch-dimmer",
+            1282,
+            384
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch",
+            1585,
+            329
+          ]
+        ]
+      },
+      {
+        "gangs": 2,
+        "members": [
+          [
+            "switch-dimmer",
+            1664,
+            277
+          ],
+          [
+            "switch-fan",
+            1672,
+            277
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch",
+            1613,
+            518
+          ]
+        ]
+      },
+      {
+        "gangs": 1,
+        "members": [
+          [
+            "switch-fan",
+            1494,
+            151
+          ]
+        ]
+      }
+    ],
+    "cable": [
+      {
+        "id": "cable:12/2 NM-B",
+        "priceKey": "12/2 NM-B",
+        "category": "cable",
+        "label": "12/2 NM-B",
+        "quantity": 108,
+        "unit": "ft",
+        "sourceIds": [
+          "run-999418caecae",
+          "run-3ee105a58704",
+          "run-c7245e7f602d",
+          "run-53d6eecc7d1e",
+          "run-532ad093a27e",
+          "run-518678497147",
+          "run-5ec3e61791dd",
+          "run-f55914431f74",
+          "run-3d219cbec901",
+          "run-d87019a70fa8"
+        ],
+        "note": "",
+        "unitPrice": 0.75,
+        "total": 81
+      },
+      {
+        "id": "cable:14/3 NM-B",
+        "priceKey": "14/3 NM-B",
+        "category": "cable",
+        "label": "14/3 NM-B",
+        "quantity": 82,
+        "unit": "ft",
+        "sourceIds": [
+          "run-a52413ca52b5",
+          "run-2e65933d2d3b",
+          "run-3befcd8aefdb",
+          "run-3214d0d9f2a6",
+          "run-11587544e828",
+          "run-f3ddc2ec9bff",
+          "run-a2b92c6cd07d",
+          "run-dd9f565027ce",
+          "run-a2433aeca83d",
+          "run-31d70c92ae31"
+        ],
+        "note": "",
+        "unitPrice": 0.85,
+        "total": 69.7
+      },
+      {
+        "id": "cable:14/2 NM-B",
+        "priceKey": "14/2 NM-B",
+        "category": "cable",
+        "label": "14/2 NM-B",
+        "quantity": 98,
+        "unit": "ft",
+        "sourceIds": [
+          "run-0acd26d50689",
+          "run-9ffef74cd648",
+          "run-5d645f493fc4",
+          "run-b06a2674134f",
+          "run-b7ff4194e8ae",
+          "run-81ea8c5f358f",
+          "run-38b9a0550cab",
+          "run-4d9463aa1951",
+          "run-dcd9bb477730",
+          "run-79562feb1788",
+          "run-c754967d11b9"
+        ],
+        "note": "",
+        "unitPrice": 0.55,
+        "total": 53.9
+      }
+    ],
+    "unpriced": 0,
+    "unresolvedRuns": 0
+  }
+]

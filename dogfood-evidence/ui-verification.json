@@ -1,0 +1,42 @@
+[
+  {
+    "step": "Public clean browser detection",
+    "count": 56
+  },
+  {
+    "step": "Create, change type/room, move, delete, undo",
+    "passed": true
+  },
+  {
+    "step": "Draw room, assign enclosed marks, undo",
+    "passed": true
+  },
+  {
+    "step": "Export and persistence after reload",
+    "passed": true
+  },
+  {
+    "step": "Real PDF upload / four-sheet split",
+    "seconds": 7.453
+  },
+  {
+    "step": "Uploaded sheet 1 analysis and visible marks",
+    "count": 56
+  },
+  {
+    "step": "Uploaded sheet 2 analysis and visible marks",
+    "count": 67
+  },
+  {
+    "step": "Uploaded sheet 3 analysis and visible marks",
+    "count": 83
+  },
+  {
+    "step": "Uploaded sheet 4 analysis and visible marks",
+    "count": 98
+  },
+  {
+    "step": "Uncaught browser errors",
+    "count": 0
+  }
+]

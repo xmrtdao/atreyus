@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+:root {
+  --font-sans: 'Sora', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Lora', ui-serif, Georgia, serif;
+  --font-mono: 'Geist Mono', ui-monospace, monospace;
+}
+
+html, body, #root {
+  font-family: var(--font-sans);
+}
+
+.font-serif { font-family: var(--font-serif); }
+.font-mono { font-family: var(--font-mono); }
